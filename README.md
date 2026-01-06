@@ -56,17 +56,17 @@ Real-world government data is often messy. We implemented a robust cleaning pipe
 #### Phase 2: Feature Engineering (The Indices)
 We didn't just plot the raw numbers; we created *Indices* to measure risk.
 
-1.  **Maintenance Risk Score ($R_m$)**:
-    $$ R_m = 1 - \left( \frac{\text{Biometric Updates}}{\text{Total Child Population}} \right) $$
-    *   *Logic*: If updates are 0 and upgrades are 100, Risk is 1.0 (Critical).
+% Maintenance Risk Score
+\text{Maintenance Risk Score } (R_m): 
+R_m = 1 - \left( \frac{\text{Biometric Updates}}{\text{Total Child Population}} \right)
 
-2.  **Migration Impact Score ($I_{mig}$)**:
-    $$ I_{mig} = \frac{\text{Demographic Updates}}{\text{Total Adult Population}} $$
-    *   *Logic*: Measures the "churn" or volatility of a region.
+% Migration Impact Score
+\text{Migration Impact Score } (I_{mig}): 
+I_{mig} = \frac{\text{Demographic Updates}}{\text{Total Adult Population}}
 
-3.  **Future Surge Score ($S_{future}$)**:
-    $$ S_{future} = \text{Count of Age 0-5 Categories} $$
-    *   *Logic*: Direct correlation to future workload.
+% Future Surge Score
+\text{Future Surge Score } (S_{future}): 
+S_{future} = \text{Count of Age 0-5 Categories}
 
 #### Phase 3: The DRAM Algorithm
 To give a single actionable number to a District Magistrate (DM), we calculate the **Priority Score ($P$)**:
