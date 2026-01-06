@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# Data (Never commit large or sensitive datasets)
+api_data_*/
+*.csv
+*.xlsx
+dashboard/data/analysis_results_backup.json
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
+
+# Temporary
+*.log
+tmp/
+README.md
+Explanation.md
+hackathon_submission.md

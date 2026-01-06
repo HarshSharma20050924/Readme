@@ -1,0 +1,3527 @@
+{
+  "summary": {
+    "total_records": 32898,
+    "total_pincodes": 19815,
+    "total_districts": 1002,
+    "total_states": 60,
+    "maintenance_deserts_count": 107,
+    "migration_hotspots_count": 782,
+    "total_projected_surge": 3546965,
+    "total_fiscal_risk": 245207500.0
+  },
+  "maintenance_deserts": [
+    {
+      "district": "100000",
+      "age_5_17": 1.0,
+      "bio_age_5_17": 0.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "24 Paraganas North",
+      "age_5_17": 2458.0,
+      "bio_age_5_17": 0.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "24 Paraganas South",
+      "age_5_17": 104.0,
+      "bio_age_5_17": 0.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "5Th Cross",
+      "age_5_17": 0.0,
+      "bio_age_5_17": 0.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "?",
+      "age_5_17": 0.0,
+      "bio_age_5_17": 0.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "Ahmednagar",
+      "age_5_17": 158.0,
+      "bio_age_5_17": 0.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "Akhera",
+      "age_5_17": 0.0,
+      "bio_age_5_17": 0.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "Anugal",
+      "age_5_17": 2.0,
+      "bio_age_5_17": 0.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "Anugul  *",
+      "age_5_17": 0.0,
+      "bio_age_5_17": 0.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "Ashoknagar",
+      "age_5_17": 1323.0,
+      "bio_age_5_17": 0.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "Auraiya *",
+      "age_5_17": 0.0,
+      "bio_age_5_17": 1.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "Baghpat *",
+      "age_5_17": 0.0,
+      "bio_age_5_17": 0.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "Balianta",
+      "age_5_17": 0.0,
+      "bio_age_5_17": 0.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "Bally Jagachha",
+      "age_5_17": 0.0,
+      "bio_age_5_17": 0.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "Balotra",
+      "age_5_17": 0.0,
+      "bio_age_5_17": 0.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "Bandipur",
+      "age_5_17": 0.0,
+      "bio_age_5_17": 0.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "Bardez",
+      "age_5_17": 0.0,
+      "bio_age_5_17": 9.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "Beawar",
+      "age_5_17": 0.0,
+      "bio_age_5_17": 2.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "Bhadrak(R)",
+      "age_5_17": 0.0,
+      "bio_age_5_17": 0.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "Bokaro *",
+      "age_5_17": 0.0,
+      "bio_age_5_17": 1.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "Bengaluru Urban",
+      "age_5_17": 7167.0,
+      "bio_age_5_17": 0.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "Bijapur(Kar)",
+      "age_5_17": 0.0,
+      "bio_age_5_17": 3.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "Bicholim",
+      "age_5_17": 0.0,
+      "bio_age_5_17": 0.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "Burdwan",
+      "age_5_17": 0.0,
+      "bio_age_5_17": 1.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "Chitrakoot *",
+      "age_5_17": 0.0,
+      "bio_age_5_17": 0.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "Chandauli *",
+      "age_5_17": 0.0,
+      "bio_age_5_17": 0.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "Chamarajanagar *",
+      "age_5_17": 0.0,
+      "bio_age_5_17": 16.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "East Midnapur",
+      "age_5_17": 0.0,
+      "bio_age_5_17": 0.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "East Singhbum",
+      "age_5_17": 546.0,
+      "bio_age_5_17": 0.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "Dist : Thane",
+      "age_5_17": 0.0,
+      "bio_age_5_17": 0.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "Coochbehar",
+      "age_5_17": 2087.0,
+      "bio_age_5_17": 0.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "Dang",
+      "age_5_17": 179.0,
+      "bio_age_5_17": 0.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "Didwana-Kuchaman",
+      "age_5_17": 0.0,
+      "bio_age_5_17": 1.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "Dinajpur Uttar",
+      "age_5_17": 4859.0,
+      "bio_age_5_17": 0.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "Dinajpur Dakshin",
+      "age_5_17": 256.0,
+      "bio_age_5_17": 0.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "Gaurella Pendra Marwahi",
+      "age_5_17": 290.0,
+      "bio_age_5_17": 0.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "Domjur",
+      "age_5_17": 0.0,
+      "bio_age_5_17": 0.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "Idpl Colony",
+      "age_5_17": 0.0,
+      "bio_age_5_17": 0.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "Hooghiy",
+      "age_5_17": 0.0,
+      "bio_age_5_17": 1.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "Hnahthial",
+      "age_5_17": 0.0,
+      "bio_age_5_17": 10.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "Hingoli *",
+      "age_5_17": 0.0,
+      "bio_age_5_17": 0.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "Gurugram",
+      "age_5_17": 625.0,
+      "bio_age_5_17": 0.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "Gautam Buddha Nagar *",
+      "age_5_17": 0.0,
+      "bio_age_5_17": 0.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "Udupi *",
+      "age_5_17": 0.0,
+      "bio_age_5_17": 2.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "Tirupathur",
+      "age_5_17": 0.0,
+      "bio_age_5_17": 50.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "Near Uday Nagar Nit Garden",
+      "age_5_17": 0.0,
+      "bio_age_5_17": 0.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "Near University Thana",
+      "age_5_17": 0.0,
+      "bio_age_5_17": 0.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "Nicobars",
+      "age_5_17": 0.0,
+      "bio_age_5_17": 1.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "North East   *",
+      "age_5_17": 0.0,
+      "bio_age_5_17": 0.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    },
+    {
+      "district": "Jaintia Hills",
+      "age_5_17": 0.0,
+      "bio_age_5_17": 1.0,
+      "update_ratio": 0.0,
+      "risk_score": 1.0
+    }
+  ],
+  "migration_hotspots": [
+    {
+      "state": "Chhattisgarh",
+      "district": "Janjgir-Champa",
+      "demo_age_17_": 104968.0,
+      "age_18_greater": 1.0,
+      "migration_ratio": 104968.0
+    },
+    {
+      "state": "Maharashtra",
+      "district": "Raigarh",
+      "demo_age_17_": 81818.0,
+      "age_18_greater": 1.0,
+      "migration_ratio": 81818.0
+    },
+    {
+      "state": "Chhattisgarh",
+      "district": "Kawardha",
+      "demo_age_17_": 62369.0,
+      "age_18_greater": 1.0,
+      "migration_ratio": 62369.0
+    },
+    {
+      "state": "Madhya Pradesh",
+      "district": "Dindori",
+      "demo_age_17_": 38909.0,
+      "age_18_greater": 1.0,
+      "migration_ratio": 38909.0
+    },
+    {
+      "state": "Telangana",
+      "district": "Yadadri.",
+      "demo_age_17_": 36383.0,
+      "age_18_greater": 1.0,
+      "migration_ratio": 36383.0
+    },
+    {
+      "state": "Andhra Pradesh",
+      "district": "Cuddapah",
+      "demo_age_17_": 72593.0,
+      "age_18_greater": 2.0,
+      "migration_ratio": 36296.5
+    },
+    {
+      "state": "Chhattisgarh",
+      "district": "Mungeli",
+      "demo_age_17_": 66729.0,
+      "age_18_greater": 2.0,
+      "migration_ratio": 33364.5
+    },
+    {
+      "state": "Tamil Nadu",
+      "district": "Tirunelveli",
+      "demo_age_17_": 65176.0,
+      "age_18_greater": 2.0,
+      "migration_ratio": 32588.0
+    },
+    {
+      "state": "Tamil Nadu",
+      "district": "Kanniyakumari",
+      "demo_age_17_": 32451.0,
+      "age_18_greater": 1.0,
+      "migration_ratio": 32451.0
+    },
+    {
+      "state": "Andhra Pradesh",
+      "district": "Hyderabad",
+      "demo_age_17_": 31824.0,
+      "age_18_greater": 1.0,
+      "migration_ratio": 31824.0
+    },
+    {
+      "state": "Telangana",
+      "district": "Siddipet",
+      "demo_age_17_": 31495.0,
+      "age_18_greater": 1.0,
+      "migration_ratio": 31495.0
+    },
+    {
+      "state": "Chhattisgarh",
+      "district": "Jashpur",
+      "demo_age_17_": 62323.0,
+      "age_18_greater": 2.0,
+      "migration_ratio": 31161.5
+    },
+    {
+      "state": "Andhra Pradesh",
+      "district": "Nellore",
+      "demo_age_17_": 61012.0,
+      "age_18_greater": 2.0,
+      "migration_ratio": 30506.0
+    },
+    {
+      "state": "Chhattisgarh",
+      "district": "Koriya",
+      "demo_age_17_": 29434.0,
+      "age_18_greater": 1.0,
+      "migration_ratio": 29434.0
+    },
+    {
+      "state": "Andhra Pradesh",
+      "district": "Adilabad",
+      "demo_age_17_": 26695.0,
+      "age_18_greater": 1.0,
+      "migration_ratio": 26695.0
+    },
+    {
+      "state": "Odisha",
+      "district": "Sambalpur",
+      "demo_age_17_": 26399.0,
+      "age_18_greater": 1.0,
+      "migration_ratio": 26399.0
+    },
+    {
+      "state": "Telangana",
+      "district": "Vikarabad",
+      "demo_age_17_": 51676.0,
+      "age_18_greater": 2.0,
+      "migration_ratio": 25838.0
+    },
+    {
+      "state": "Karnataka",
+      "district": "Belgaum",
+      "demo_age_17_": 50900.0,
+      "age_18_greater": 2.0,
+      "migration_ratio": 25450.0
+    },
+    {
+      "state": "Haryana",
+      "district": "Sirsa",
+      "demo_age_17_": 50186.0,
+      "age_18_greater": 2.0,
+      "migration_ratio": 25093.0
+    },
+    {
+      "state": "Telangana",
+      "district": "Mancherial",
+      "demo_age_17_": 24061.0,
+      "age_18_greater": 1.0,
+      "migration_ratio": 24061.0
+    },
+    {
+      "state": "Karnataka",
+      "district": "Bellary",
+      "demo_age_17_": 23856.0,
+      "age_18_greater": 1.0,
+      "migration_ratio": 23856.0
+    },
+    {
+      "state": "Andhra Pradesh",
+      "district": "Vizianagaram",
+      "demo_age_17_": 67818.0,
+      "age_18_greater": 3.0,
+      "migration_ratio": 22606.0
+    },
+    {
+      "state": "Uttar Pradesh",
+      "district": "Faizabad",
+      "demo_age_17_": 63185.0,
+      "age_18_greater": 3.0,
+      "migration_ratio": 21061.666666666668
+    },
+    {
+      "state": "Telangana",
+      "district": "Mahabubabad",
+      "demo_age_17_": 20797.0,
+      "age_18_greater": 1.0,
+      "migration_ratio": 20797.0
+    },
+    {
+      "state": "Telangana",
+      "district": "Suryapet",
+      "demo_age_17_": 41224.0,
+      "age_18_greater": 2.0,
+      "migration_ratio": 20612.0
+    },
+    {
+      "state": "West Bengal",
+      "district": "Haora",
+      "demo_age_17_": 39541.0,
+      "age_18_greater": 2.0,
+      "migration_ratio": 19770.5
+    },
+    {
+      "state": "Tamil Nadu",
+      "district": "Theni",
+      "demo_age_17_": 33858.0,
+      "age_18_greater": 2.0,
+      "migration_ratio": 16929.0
+    },
+    {
+      "state": "Haryana",
+      "district": "Palwal",
+      "demo_age_17_": 61703.0,
+      "age_18_greater": 4.0,
+      "migration_ratio": 15425.75
+    },
+    {
+      "state": "Tamil Nadu",
+      "district": "Tiruppur",
+      "demo_age_17_": 73372.0,
+      "age_18_greater": 5.0,
+      "migration_ratio": 14674.4
+    },
+    {
+      "state": "Andhra Pradesh",
+      "district": "Srikakulam",
+      "demo_age_17_": 111384.0,
+      "age_18_greater": 8.0,
+      "migration_ratio": 13923.0
+    },
+    {
+      "state": "Chhattisgarh",
+      "district": "Dhamtari",
+      "demo_age_17_": 41640.0,
+      "age_18_greater": 3.0,
+      "migration_ratio": 13880.0
+    },
+    {
+      "state": "Andhra Pradesh",
+      "district": "East Godavari",
+      "demo_age_17_": 136935.0,
+      "age_18_greater": 10.0,
+      "migration_ratio": 13693.5
+    },
+    {
+      "state": "Chhattisgarh",
+      "district": "Balod",
+      "demo_age_17_": 54030.0,
+      "age_18_greater": 4.0,
+      "migration_ratio": 13507.5
+    },
+    {
+      "state": "Telangana",
+      "district": "Jogulamba Gadwal",
+      "demo_age_17_": 26733.0,
+      "age_18_greater": 2.0,
+      "migration_ratio": 13366.5
+    },
+    {
+      "state": "Telangana",
+      "district": "Adilabad",
+      "demo_age_17_": 39597.0,
+      "age_18_greater": 3.0,
+      "migration_ratio": 13199.0
+    },
+    {
+      "state": "Chhattisgarh",
+      "district": "Kanker",
+      "demo_age_17_": 25973.0,
+      "age_18_greater": 2.0,
+      "migration_ratio": 12986.5
+    },
+    {
+      "state": "Tamil Nadu",
+      "district": "Thoothukkudi",
+      "demo_age_17_": 37868.0,
+      "age_18_greater": 3.0,
+      "migration_ratio": 12622.666666666666
+    },
+    {
+      "state": "Tamil Nadu",
+      "district": "Tiruchirappalli",
+      "demo_age_17_": 62387.0,
+      "age_18_greater": 5.0,
+      "migration_ratio": 12477.4
+    },
+    {
+      "state": "Karnataka",
+      "district": "Bangalore",
+      "demo_age_17_": 47973.0,
+      "age_18_greater": 4.0,
+      "migration_ratio": 11993.25
+    },
+    {
+      "state": "Chhattisgarh",
+      "district": "Bastar",
+      "demo_age_17_": 70053.0,
+      "age_18_greater": 6.0,
+      "migration_ratio": 11675.5
+    },
+    {
+      "state": "West Bengal",
+      "district": "Barddhaman",
+      "demo_age_17_": 160484.0,
+      "age_18_greater": 14.0,
+      "migration_ratio": 11463.142857142857
+    },
+    {
+      "state": "Andhra Pradesh",
+      "district": "Medak",
+      "demo_age_17_": 11252.0,
+      "age_18_greater": 1.0,
+      "migration_ratio": 11252.0
+    },
+    {
+      "state": "Jammu And Kashmir",
+      "district": "Badgam",
+      "demo_age_17_": 11222.0,
+      "age_18_greater": 1.0,
+      "migration_ratio": 11222.0
+    },
+    {
+      "state": "Odisha",
+      "district": "Jajapur",
+      "demo_age_17_": 22431.0,
+      "age_18_greater": 2.0,
+      "migration_ratio": 11215.5
+    },
+    {
+      "state": "Uttarakhand",
+      "district": "Champawat",
+      "demo_age_17_": 11133.0,
+      "age_18_greater": 1.0,
+      "migration_ratio": 11133.0
+    },
+    {
+      "state": "Odisha",
+      "district": "Sonapur",
+      "demo_age_17_": 10990.0,
+      "age_18_greater": 1.0,
+      "migration_ratio": 10990.0
+    },
+    {
+      "state": "Tamil Nadu",
+      "district": "Thiruvarur",
+      "demo_age_17_": 32739.0,
+      "age_18_greater": 3.0,
+      "migration_ratio": 10913.0
+    },
+    {
+      "state": "Uttar Pradesh",
+      "district": "Sant Ravidas Nagar",
+      "demo_age_17_": 43274.0,
+      "age_18_greater": 4.0,
+      "migration_ratio": 10818.5
+    },
+    {
+      "state": "Maharashtra",
+      "district": "Osmanabad",
+      "demo_age_17_": 105818.0,
+      "age_18_greater": 10.0,
+      "migration_ratio": 10581.8
+    },
+    {
+      "state": "Telangana",
+      "district": "Kamareddy",
+      "demo_age_17_": 20904.0,
+      "age_18_greater": 2.0,
+      "migration_ratio": 10452.0
+    }
+  ],
+  "update_surge": [
+    {
+      "state": "Uttar Pradesh",
+      "projected_surge": 521045.0
+    },
+    {
+      "state": "Madhya Pradesh",
+      "projected_surge": 367990.0
+    },
+    {
+      "state": "Maharashtra",
+      "projected_surge": 278814.0
+    },
+    {
+      "state": "West Bengal",
+      "projected_surge": 275400.0
+    },
+    {
+      "state": "Bihar",
+      "projected_surge": 262875.0
+    },
+    {
+      "state": "Rajasthan",
+      "projected_surge": 229780.0
+    },
+    {
+      "state": "Gujarat",
+      "projected_surge": 193031.0
+    },
+    {
+      "state": "Tamil Nadu",
+      "projected_surge": 182313.0
+    },
+    {
+      "state": "Karnataka",
+      "projected_surge": 179262.0
+    },
+    {
+      "state": "Assam",
+      "projected_surge": 141235.0
+    },
+    {
+      "state": "Andhra Pradesh",
+      "projected_surge": 112445.0
+    },
+    {
+      "state": "Telangana",
+      "projected_surge": 105918.0
+    },
+    {
+      "state": "Jharkhand",
+      "projected_surge": 98551.0
+    },
+    {
+      "state": "Odisha",
+      "projected_surge": 95883.0
+    },
+    {
+      "state": "Haryana",
+      "projected_surge": 88042.0
+    },
+    {
+      "state": "Chhattisgarh",
+      "projected_surge": 82453.0
+    },
+    {
+      "state": "Delhi",
+      "projected_surge": 69183.0
+    },
+    {
+      "state": "Punjab",
+      "projected_surge": 61224.0
+    },
+    {
+      "state": "Kerala",
+      "projected_surge": 53737.0
+    },
+    {
+      "state": "Jammu And Kashmir",
+      "projected_surge": 40406.0
+    },
+    {
+      "state": "Uttarakhand",
+      "projected_surge": 31880.0
+    },
+    {
+      "state": "Meghalaya",
+      "projected_surge": 21179.0
+    },
+    {
+      "state": "Himachal Pradesh",
+      "projected_surge": 16639.0
+    },
+    {
+      "state": "Tripura",
+      "projected_surge": 7376.0
+    },
+    {
+      "state": "Manipur",
+      "projected_surge": 5140.0
+    },
+    {
+      "state": "Nagaland",
+      "projected_surge": 4512.0
+    },
+    {
+      "state": "Mizoram",
+      "projected_surge": 4136.0
+    },
+    {
+      "state": "Orissa",
+      "projected_surge": 3548.0
+    },
+    {
+      "state": "Chandigarh",
+      "projected_surge": 2476.0
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "projected_surge": 1957.0
+    },
+    {
+      "state": "Goa",
+      "projected_surge": 1916.0
+    },
+    {
+      "state": "Puducherry",
+      "projected_surge": 1585.0
+    },
+    {
+      "state": "Pondicherry",
+      "projected_surge": 1193.0
+    },
+    {
+      "state": "Sikkim",
+      "projected_surge": 1054.0
+    },
+    {
+      "state": "Dadra And Nagar Haveli",
+      "projected_surge": 669.0
+    },
+    {
+      "state": "The Dadra And Nagar Haveli And Daman And Diu",
+      "projected_surge": 548.0
+    },
+    {
+      "state": "Ladakh",
+      "projected_surge": 466.0
+    },
+    {
+      "state": "Andaman And Nicobar Islands",
+      "projected_surge": 370.0
+    },
+    {
+      "state": "Lakshadweep",
+      "projected_surge": 192.0
+    },
+    {
+      "state": "Jammu & Kashmir",
+      "projected_surge": 133.0
+    },
+    {
+      "state": "Dadra And Nagar Haveli And Daman And Diu",
+      "projected_surge": 131.0
+    },
+    {
+      "state": "Andaman & Nicobar Islands",
+      "projected_surge": 109.0
+    },
+    {
+      "state": "Daman And Diu",
+      "projected_surge": 107.0
+    },
+    {
+      "state": "Dadra & Nagar Haveli",
+      "projected_surge": 22.0
+    },
+    {
+      "state": "Daman & Diu",
+      "projected_surge": 20.0
+    },
+    {
+      "state": "West  Bengal",
+      "projected_surge": 9.0
+    },
+    {
+      "state": "West Bangal",
+      "projected_surge": 7.0
+    },
+    {
+      "state": "Westbengal",
+      "projected_surge": 4.0
+    },
+    {
+      "state": "100000",
+      "projected_surge": 0.0
+    },
+    {
+      "state": "Darbhanga",
+      "projected_surge": 0.0
+    }
+  ],
+  "top_priority_pincodes": [
+    {
+      "pincode": 491559,
+      "state": "Chhattisgarh",
+      "district": "Kawardha",
+      "priority_score": 0.6836884334120916,
+      "maintenance_risk": -76.6639344262295,
+      "migration_impact": 33998.0,
+      "age_0_5": 780.0
+    },
+    {
+      "pincode": 244001,
+      "state": "Uttar Pradesh",
+      "district": "Moradabad",
+      "priority_score": 0.6710122612963811,
+      "maintenance_risk": -9.182084177357641,
+      "migration_impact": 546.2208588957055,
+      "age_0_5": 10516.0
+    },
+    {
+      "pincode": 855107,
+      "state": "Bihar",
+      "district": "Kishanganj",
+      "priority_score": 0.66454410426687,
+      "maintenance_risk": -27.77354260089686,
+      "migration_impact": 28625.0,
+      "age_0_5": 1685.0
+    },
+    {
+      "pincode": 495115,
+      "state": "Chhattisgarh",
+      "district": "Mungeli",
+      "priority_score": 0.6221780914706434,
+      "maintenance_risk": -60.66423357664234,
+      "migration_impact": 26987.0,
+      "age_0_5": 958.0
+    },
+    {
+      "pincode": 110096,
+      "state": "Delhi",
+      "district": "East Delhi",
+      "priority_score": 0.607036090508522,
+      "maintenance_risk": -42.771300448430495,
+      "migration_impact": 26280.0,
+      "age_0_5": 643.0
+    },
+    {
+      "pincode": 494001,
+      "state": "Chhattisgarh",
+      "district": "Bastar",
+      "priority_score": 0.5864439229689519,
+      "maintenance_risk": -21.75432525951557,
+      "migration_impact": 22994.0,
+      "age_0_5": 944.0
+    },
+    {
+      "pincode": 244713,
+      "state": "Uttarakhand",
+      "district": "Udham Singh Nagar",
+      "priority_score": 0.5784301915601294,
+      "maintenance_risk": -82.54587155963303,
+      "migration_impact": 22617.0,
+      "age_0_5": 998.0
+    },
+    {
+      "pincode": 247001,
+      "state": "Uttar Pradesh",
+      "district": "Saharanpur",
+      "priority_score": 0.5687195313018671,
+      "maintenance_risk": -9.677744209466264,
+      "migration_impact": 1026.0588235294117,
+      "age_0_5": 7142.0
+    },
+    {
+      "pincode": 742202,
+      "state": "West Bengal",
+      "district": "Murshidabad",
+      "priority_score": 0.5677042502717441,
+      "maintenance_risk": -6.598253275109171,
+      "migration_impact": 13542.0,
+      "age_0_5": 3229.0
+    },
+    {
+      "pincode": 110059,
+      "state": "Delhi",
+      "district": "West Delhi",
+      "priority_score": 0.5650178366095976,
+      "maintenance_risk": -9.032164948453609,
+      "migration_impact": 140.86621621621623,
+      "age_0_5": 7297.0
+    },
+    {
+      "pincode": 732125,
+      "state": "West Bengal",
+      "district": "Malda",
+      "priority_score": 0.5560402677019544,
+      "maintenance_risk": -12.758152173913043,
+      "migration_impact": 17762.0,
+      "age_0_5": 1575.0
+    },
+    {
+      "pincode": 123401,
+      "state": "Haryana",
+      "district": "Rewari",
+      "priority_score": 0.5439009029318292,
+      "maintenance_risk": -180.57142857142858,
+      "migration_impact": 20617.0,
+      "age_0_5": 834.0
+    },
+    {
+      "pincode": 121004,
+      "state": "Haryana",
+      "district": "Faridabad",
+      "priority_score": 0.5388991405988253,
+      "maintenance_risk": -11.377153797064455,
+      "migration_impact": 403.8510638297872,
+      "age_0_5": 6399.0
+    },
+    {
+      "pincode": 497225,
+      "state": "Chhattisgarh",
+      "district": "Balrampur",
+      "priority_score": 0.536436743446885,
+      "maintenance_risk": -8.501176470588236,
+      "migration_impact": 16906.0,
+      "age_0_5": 1208.0
+    },
+    {
+      "pincode": 202001,
+      "state": "Uttar Pradesh",
+      "district": "Aligarh",
+      "priority_score": 0.5349732392435662,
+      "maintenance_risk": -6.059404061491744,
+      "migration_impact": 282.6380597014925,
+      "age_0_5": 6296.0
+    },
+    {
+      "pincode": 110093,
+      "state": "Delhi",
+      "district": "North East Delhi",
+      "priority_score": 0.5318688320112126,
+      "maintenance_risk": -78.45192307692308,
+      "migration_impact": 18512.0,
+      "age_0_5": 786.0
+    },
+    {
+      "pincode": 742213,
+      "state": "West Bengal",
+      "district": "Murshidabad",
+      "priority_score": 0.5307244284233726,
+      "maintenance_risk": -18.117977528089888,
+      "migration_impact": 16023.0,
+      "age_0_5": 1331.0
+    },
+    {
+      "pincode": 495224,
+      "state": "Chhattisgarh",
+      "district": "Bilaspur",
+      "priority_score": 0.5285915797813177,
+      "maintenance_risk": -59.067567567567565,
+      "migration_impact": 18819.0,
+      "age_0_5": 527.0
+    },
+    {
+      "pincode": 244901,
+      "state": "Uttar Pradesh",
+      "district": "Rampur",
+      "priority_score": 0.5222643754845269,
+      "maintenance_risk": -6.695554305008441,
+      "migration_impact": 425.05454545454546,
+      "age_0_5": 5853.0
+    },
+    {
+      "pincode": 250002,
+      "state": "Uttar Pradesh",
+      "district": "Meerut",
+      "priority_score": 0.518933743908666,
+      "maintenance_risk": -5.967534284914637,
+      "migration_impact": 501.50602409638554,
+      "age_0_5": 5722.0
+    },
+    {
+      "pincode": 431001,
+      "state": "Maharashtra",
+      "district": "Aurangabad",
+      "priority_score": 0.5173635736594532,
+      "maintenance_risk": -8.878226099600145,
+      "migration_impact": 231.7829457364341,
+      "age_0_5": 5765.0
+    },
+    {
+      "pincode": 494226,
+      "state": "Chhattisgarh",
+      "district": "Kondagaon",
+      "priority_score": 0.5068995077149865,
+      "maintenance_risk": -14.0224,
+      "migration_impact": 14515.0,
+      "age_0_5": 1033.0
+    },
+    {
+      "pincode": 110094,
+      "state": "Delhi",
+      "district": "North East Delhi",
+      "priority_score": 0.5048055970372093,
+      "maintenance_risk": -11.537555826228177,
+      "migration_impact": 1683.8478260869565,
+      "age_0_5": 4928.0
+    },
+    {
+      "pincode": 121102,
+      "state": "Haryana",
+      "district": "Palwal",
+      "priority_score": 0.5044884247659157,
+      "maintenance_risk": -104.74358974358974,
+      "migration_impact": 13386.0,
+      "age_0_5": 1590.0
+    },
+    {
+      "pincode": 263153,
+      "state": "Uttarakhand",
+      "district": "Udham Singh Nagar",
+      "priority_score": 0.5016277310135109,
+      "maintenance_risk": -64.12962962962963,
+      "migration_impact": 15703.0,
+      "age_0_5": 656.0
+    },
+    {
+      "pincode": 421302,
+      "state": "Maharashtra",
+      "district": "Thane",
+      "priority_score": 0.5001032001605322,
+      "maintenance_risk": -6.07171000788022,
+      "migration_impact": 470.01666666666665,
+      "age_0_5": 5138.0
+    },
+    {
+      "pincode": 533101,
+      "state": "Andhra Pradesh",
+      "district": "East Godavari",
+      "priority_score": 0.4990717009072987,
+      "maintenance_risk": -249.68571428571428,
+      "migration_impact": 18370.0,
+      "age_0_5": 331.0
+    },
+    {
+      "pincode": 855113,
+      "state": "Bihar",
+      "district": "Katihar",
+      "priority_score": 0.49553239821236067,
+      "maintenance_risk": -32.348837209302324,
+      "migration_impact": 12354.5,
+      "age_0_5": 1400.0
+    },
+    {
+      "pincode": 493228,
+      "state": "Chhattisgarh",
+      "district": "Baloda Bazar",
+      "priority_score": 0.49465665021064814,
+      "maintenance_risk": -99.3,
+      "migration_impact": 16156.0,
+      "age_0_5": 406.0
+    },
+    {
+      "pincode": 242001,
+      "state": "Uttar Pradesh",
+      "district": "Shahjahanpur",
+      "priority_score": 0.49186231395197516,
+      "maintenance_risk": -6.650296359017782,
+      "migration_impact": 517.9514563106796,
+      "age_0_5": 4865.0
+    },
+    {
+      "pincode": 283203,
+      "state": "Uttar Pradesh",
+      "district": "Firozabad",
+      "priority_score": 0.4897295302089915,
+      "maintenance_risk": -13.212841854934602,
+      "migration_impact": 1200.9117647058824,
+      "age_0_5": 4607.0
+    },
+    {
+      "pincode": 494442,
+      "state": "Chhattisgarh",
+      "district": "Bastar",
+      "priority_score": 0.4861496593881897,
+      "maintenance_risk": -12.498550724637681,
+      "migration_impact": 12616.0,
+      "age_0_5": 961.0
+    },
+    {
+      "pincode": 282001,
+      "state": "Uttar Pradesh",
+      "district": "Agra",
+      "priority_score": 0.48523146174318094,
+      "maintenance_risk": -3.8561643835616435,
+      "migration_impact": 88.18359375,
+      "age_0_5": 4780.0
+    },
+    {
+      "pincode": 795103,
+      "state": "Manipur",
+      "district": "Thoubal",
+      "priority_score": 0.48403747336449027,
+      "maintenance_risk": -75.3047619047619,
+      "migration_impact": 15910.0,
+      "age_0_5": 72.0
+    },
+    {
+      "pincode": 410206,
+      "state": "Maharashtra",
+      "district": "Raigarh",
+      "priority_score": 0.48391005054095215,
+      "maintenance_risk": -60.9492385786802,
+      "migration_impact": 13243.0,
+      "age_0_5": 848.0
+    },
+    {
+      "pincode": 451666,
+      "state": "Madhya Pradesh",
+      "district": "Barwani",
+      "priority_score": 0.48327983252422824,
+      "maintenance_risk": -5.789884393063584,
+      "migration_impact": 76.80442804428044,
+      "age_0_5": 4728.0
+    },
+    {
+      "pincode": 854315,
+      "state": "Bihar",
+      "district": "Purnia",
+      "priority_score": 0.4827279003926652,
+      "maintenance_risk": -24.450516986706056,
+      "migration_impact": 8143.0,
+      "age_0_5": 2274.0
+    },
+    {
+      "pincode": 342001,
+      "state": "Rajasthan",
+      "district": "Jodhpur",
+      "priority_score": 0.48162041572811837,
+      "maintenance_risk": -7.038216560509554,
+      "migration_impact": 85.06319702602231,
+      "age_0_5": 4677.0
+    },
+    {
+      "pincode": 476001,
+      "state": "Madhya Pradesh",
+      "district": "Morena",
+      "priority_score": 0.48139928376592245,
+      "maintenance_risk": -9.096574690770694,
+      "migration_impact": 173.85365853658536,
+      "age_0_5": 4649.0
+    },
+    {
+      "pincode": 732102,
+      "state": "West Bengal",
+      "district": "Malda",
+      "priority_score": 0.47987358918391343,
+      "maintenance_risk": -18.73394495412844,
+      "migration_impact": 13122.0,
+      "age_0_5": 626.0
+    },
+    {
+      "pincode": 470880,
+      "state": "Madhya Pradesh",
+      "district": "Damoh",
+      "priority_score": 0.47683664084774585,
+      "maintenance_risk": -74.21341463414635,
+      "migration_impact": 12604.0,
+      "age_0_5": 864.0
+    },
+    {
+      "pincode": 851211,
+      "state": "Bihar",
+      "district": "Begusarai",
+      "priority_score": 0.47541670926192,
+      "maintenance_risk": -15.032051282051281,
+      "migration_impact": 12436.0,
+      "age_0_5": 686.0
+    },
+    {
+      "pincode": 301001,
+      "state": "Rajasthan",
+      "district": "Alwar",
+      "priority_score": 0.4737890474607631,
+      "maintenance_risk": -8.075721153846153,
+      "migration_impact": 257.0,
+      "age_0_5": 4380.0
+    },
+    {
+      "pincode": 803107,
+      "state": "Bihar",
+      "district": "Nalanda",
+      "priority_score": 0.4730549523738264,
+      "maintenance_risk": -6.569014084507042,
+      "migration_impact": 13393.0,
+      "age_0_5": 289.0
+    },
+    {
+      "pincode": 504001,
+      "state": "Telangana",
+      "district": "Adilabad",
+      "priority_score": 0.4717164635432521,
+      "maintenance_risk": -58.0126582278481,
+      "migration_impact": 13085.0,
+      "age_0_5": 503.0
+    },
+    {
+      "pincode": 132103,
+      "state": "Haryana",
+      "district": "Panipat",
+      "priority_score": 0.4711236347316177,
+      "maintenance_risk": -41.240425531914894,
+      "migration_impact": 1064.2045454545455,
+      "age_0_5": 4150.0
+    },
+    {
+      "pincode": 231216,
+      "state": "Uttar Pradesh",
+      "district": "Sonbhadra",
+      "priority_score": 0.47087799815865,
+      "maintenance_risk": -29.754545454545454,
+      "migration_impact": 12455.0,
+      "age_0_5": 583.0
+    },
+    {
+      "pincode": 225305,
+      "state": "Uttar Pradesh",
+      "district": "Bara Banki",
+      "priority_score": 0.4701071599568441,
+      "maintenance_risk": -32.15909090909091,
+      "migration_impact": 12724.0,
+      "age_0_5": 483.0
+    },
+    {
+      "pincode": 143001,
+      "state": "Punjab",
+      "district": "Amritsar",
+      "priority_score": 0.46964961453397763,
+      "maintenance_risk": -13.662974683544304,
+      "migration_impact": 256.6467661691542,
+      "age_0_5": 4267.0
+    },
+    {
+      "pincode": 272175,
+      "state": "Uttar Pradesh",
+      "district": "Sant Kabir Nagar",
+      "priority_score": 0.46744030145935556,
+      "maintenance_risk": -15.370808678500985,
+      "migration_impact": 12363.0,
+      "age_0_5": 458.0
+    }
+  ],
+  "state_priority": [
+    {
+      "state": "Delhi",
+      "priority_score": 0.35814473660973983
+    },
+    {
+      "state": "The Dadra And Nagar Haveli And Daman And Diu",
+      "priority_score": 0.3507036896158235
+    },
+    {
+      "state": "Bihar",
+      "priority_score": 0.34761470755606416
+    },
+    {
+      "state": "Uttar Pradesh",
+      "priority_score": 0.344341244690763
+    },
+    {
+      "state": "Madhya Pradesh",
+      "priority_score": 0.34290527534329096
+    },
+    {
+      "state": "Rajasthan",
+      "priority_score": 0.34197369918554704
+    },
+    {
+      "state": "Jharkhand",
+      "priority_score": 0.3412114811901512
+    },
+    {
+      "state": "Manipur",
+      "priority_score": 0.3390936819077152
+    },
+    {
+      "state": "Meghalaya",
+      "priority_score": 0.3390162111675562
+    },
+    {
+      "state": "West Bengal",
+      "priority_score": 0.33839889117050936
+    },
+    {
+      "state": "Chhattisgarh",
+      "priority_score": 0.3383131238487649
+    },
+    {
+      "state": "Assam",
+      "priority_score": 0.33771417533135045
+    },
+    {
+      "state": "Nagaland",
+      "priority_score": 0.3348457877119169
+    },
+    {
+      "state": "Jammu And Kashmir",
+      "priority_score": 0.3337693682113812
+    },
+    {
+      "state": "Jammu & Kashmir",
+      "priority_score": 0.33335925196264604
+    },
+    {
+      "state": "West  Bengal",
+      "priority_score": 0.3333436886168876
+    },
+    {
+      "state": "Westbengal",
+      "priority_score": 0.33333727820325876
+    },
+    {
+      "state": "100000",
+      "priority_score": 0.333333423697373
+    },
+    {
+      "state": "Tamilnadu",
+      "priority_score": 0.3333333333333333
+    },
+    {
+      "state": "Raja Annamalai Puram",
+      "priority_score": 0.3333333333333333
+    },
+    {
+      "state": "West Bengli",
+      "priority_score": 0.3333333333333333
+    },
+    {
+      "state": "Madanapalle",
+      "priority_score": 0.3333333333333333
+    },
+    {
+      "state": "Puttenahalli",
+      "priority_score": 0.3333333333333333
+    },
+    {
+      "state": "Nagpur",
+      "priority_score": 0.3333333333333333
+    },
+    {
+      "state": "Chhatisgarh",
+      "priority_score": 0.3333333333333333
+    },
+    {
+      "state": "Balanagar",
+      "priority_score": 0.3333333333333333
+    },
+    {
+      "state": "Darbhanga",
+      "priority_score": 0.3333333333333333
+    },
+    {
+      "state": "Jaipur",
+      "priority_score": 0.3333333333333333
+    },
+    {
+      "state": "Uttaranchal",
+      "priority_score": 0.3333333333333333
+    },
+    {
+      "state": "West Bangal",
+      "priority_score": 0.33325881029138554
+    },
+    {
+      "state": "Dadra And Nagar Haveli And Daman And Diu",
+      "priority_score": 0.3331797104067638
+    },
+    {
+      "state": "Sikkim",
+      "priority_score": 0.33298781617432194
+    },
+    {
+      "state": "Orissa",
+      "priority_score": 0.3329599144528906
+    },
+    {
+      "state": "Dadra & Nagar Haveli",
+      "priority_score": 0.3329291393290639
+    },
+    {
+      "state": "Andaman & Nicobar Islands",
+      "priority_score": 0.33213453230580725
+    },
+    {
+      "state": "Gujarat",
+      "priority_score": 0.3320050584631731
+    },
+    {
+      "state": "Ladakh",
+      "priority_score": 0.3319503835311705
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "priority_score": 0.33189871228258877
+    },
+    {
+      "state": "Kerala",
+      "priority_score": 0.33160484491694964
+    },
+    {
+      "state": "Telangana",
+      "priority_score": 0.3312658712735267
+    },
+    {
+      "state": "Tripura",
+      "priority_score": 0.33107679380855287
+    },
+    {
+      "state": "Maharashtra",
+      "priority_score": 0.3307921281565475
+    },
+    {
+      "state": "Odisha",
+      "priority_score": 0.33036605149153003
+    },
+    {
+      "state": "Karnataka",
+      "priority_score": 0.32987638797817914
+    },
+    {
+      "state": "Uttarakhand",
+      "priority_score": 0.3296976175513197
+    },
+    {
+      "state": "Tamil Nadu",
+      "priority_score": 0.3295085078003038
+    },
+    {
+      "state": "Pondicherry",
+      "priority_score": 0.3293021240027532
+    },
+    {
+      "state": "Lakshadweep",
+      "priority_score": 0.3289605683742888
+    },
+    {
+      "state": "Daman & Diu",
+      "priority_score": 0.32800539847904464
+    },
+    {
+      "state": "Punjab",
+      "priority_score": 0.3274051218679839
+    },
+    {
+      "state": "Dadra And Nagar Haveli",
+      "priority_score": 0.3272390536448797
+    },
+    {
+      "state": "Chandigarh",
+      "priority_score": 0.32633457797727927
+    },
+    {
+      "state": "Goa",
+      "priority_score": 0.32559211365579543
+    },
+    {
+      "state": "Haryana",
+      "priority_score": 0.32425283145874634
+    },
+    {
+      "state": "Puducherry",
+      "priority_score": 0.32243524359102993
+    },
+    {
+      "state": "Mizoram",
+      "priority_score": 0.3223056861781697
+    },
+    {
+      "state": "Himachal Pradesh",
+      "priority_score": 0.32074409848160157
+    },
+    {
+      "state": "Andhra Pradesh",
+      "priority_score": 0.3186028571453503
+    },
+    {
+      "state": "Andaman And Nicobar Islands",
+      "priority_score": 0.3116408326443538
+    },
+    {
+      "state": "Daman And Diu",
+      "priority_score": 0.3010931173336452
+    }
+  ],
+  "state_fiscal_risk": [
+    {
+      "state": "Meghalaya",
+      "total_fiscal_risk": 56852500.0
+    },
+    {
+      "state": "Bihar",
+      "total_fiscal_risk": 56797500.0
+    },
+    {
+      "state": "Gujarat",
+      "total_fiscal_risk": 42262500.0
+    },
+    {
+      "state": "West Bengal",
+      "total_fiscal_risk": 26310000.0
+    },
+    {
+      "state": "Karnataka",
+      "total_fiscal_risk": 20267500.0
+    },
+    {
+      "state": "Uttar Pradesh",
+      "total_fiscal_risk": 19355000.0
+    },
+    {
+      "state": "Madhya Pradesh",
+      "total_fiscal_risk": 3437500.0
+    },
+    {
+      "state": "Andhra Pradesh",
+      "total_fiscal_risk": 3030000.0
+    },
+    {
+      "state": "Delhi",
+      "total_fiscal_risk": 2785000.0
+    },
+    {
+      "state": "Assam",
+      "total_fiscal_risk": 2502500.0
+    },
+    {
+      "state": "Haryana",
+      "total_fiscal_risk": 2097500.0
+    },
+    {
+      "state": "Jharkhand",
+      "total_fiscal_risk": 1422500.0
+    },
+    {
+      "state": "Telangana",
+      "total_fiscal_risk": 1367500.0
+    },
+    {
+      "state": "Chhattisgarh",
+      "total_fiscal_risk": 925000.0
+    },
+    {
+      "state": "Maharashtra",
+      "total_fiscal_risk": 875000.0
+    },
+    {
+      "state": "Nagaland",
+      "total_fiscal_risk": 742500.0
+    },
+    {
+      "state": "Rajasthan",
+      "total_fiscal_risk": 605000.0
+    },
+    {
+      "state": "Tamil Nadu",
+      "total_fiscal_risk": 490000.0
+    },
+    {
+      "state": "Odisha",
+      "total_fiscal_risk": 475000.0
+    },
+    {
+      "state": "Punjab",
+      "total_fiscal_risk": 412500.0
+    },
+    {
+      "state": "Sikkim",
+      "total_fiscal_risk": 387500.0
+    },
+    {
+      "state": "Dadra And Nagar Haveli",
+      "total_fiscal_risk": 352500.0
+    },
+    {
+      "state": "Dadra And Nagar Haveli And Daman And Diu",
+      "total_fiscal_risk": 352500.0
+    },
+    {
+      "state": "The Dadra And Nagar Haveli And Daman And Diu",
+      "total_fiscal_risk": 352500.0
+    },
+    {
+      "state": "Jammu And Kashmir",
+      "total_fiscal_risk": 255000.0
+    },
+    {
+      "state": "Orissa",
+      "total_fiscal_risk": 205000.0
+    },
+    {
+      "state": "Jammu & Kashmir",
+      "total_fiscal_risk": 45000.0
+    },
+    {
+      "state": "Tamilnadu",
+      "total_fiscal_risk": 45000.0
+    },
+    {
+      "state": "Kerala",
+      "total_fiscal_risk": 35000.0
+    },
+    {
+      "state": "West Bangal",
+      "total_fiscal_risk": 30000.0
+    },
+    {
+      "state": "Westbengal",
+      "total_fiscal_risk": 30000.0
+    },
+    {
+      "state": "Manipur",
+      "total_fiscal_risk": 27500.0
+    },
+    {
+      "state": "West  Bengal",
+      "total_fiscal_risk": 25000.0
+    },
+    {
+      "state": "West Bengli",
+      "total_fiscal_risk": 25000.0
+    },
+    {
+      "state": "Uttarakhand",
+      "total_fiscal_risk": 7500.0
+    },
+    {
+      "state": "Ladakh",
+      "total_fiscal_risk": 7500.0
+    },
+    {
+      "state": "Uttaranchal",
+      "total_fiscal_risk": 2500.0
+    },
+    {
+      "state": "Himachal Pradesh",
+      "total_fiscal_risk": 2500.0
+    },
+    {
+      "state": "Pondicherry",
+      "total_fiscal_risk": 2500.0
+    },
+    {
+      "state": "Mizoram",
+      "total_fiscal_risk": 2500.0
+    },
+    {
+      "state": "100000",
+      "total_fiscal_risk": 2500.0
+    },
+    {
+      "state": "Andaman & Nicobar Islands",
+      "total_fiscal_risk": 0.0
+    },
+    {
+      "state": "Andaman And Nicobar Islands",
+      "total_fiscal_risk": 0.0
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "total_fiscal_risk": 0.0
+    },
+    {
+      "state": "Jaipur",
+      "total_fiscal_risk": 0.0
+    },
+    {
+      "state": "Daman & Diu",
+      "total_fiscal_risk": 0.0
+    },
+    {
+      "state": "Darbhanga",
+      "total_fiscal_risk": 0.0
+    },
+    {
+      "state": "Goa",
+      "total_fiscal_risk": 0.0
+    },
+    {
+      "state": "Daman And Diu",
+      "total_fiscal_risk": 0.0
+    },
+    {
+      "state": "Chandigarh",
+      "total_fiscal_risk": 0.0
+    },
+    {
+      "state": "Chhatisgarh",
+      "total_fiscal_risk": 0.0
+    },
+    {
+      "state": "Dadra & Nagar Haveli",
+      "total_fiscal_risk": 0.0
+    },
+    {
+      "state": "Balanagar",
+      "total_fiscal_risk": 0.0
+    },
+    {
+      "state": "Puttenahalli",
+      "total_fiscal_risk": 0.0
+    },
+    {
+      "state": "Nagpur",
+      "total_fiscal_risk": 0.0
+    },
+    {
+      "state": "Lakshadweep",
+      "total_fiscal_risk": 0.0
+    },
+    {
+      "state": "Madanapalle",
+      "total_fiscal_risk": 0.0
+    },
+    {
+      "state": "Puducherry",
+      "total_fiscal_risk": 0.0
+    },
+    {
+      "state": "Tripura",
+      "total_fiscal_risk": 0.0
+    },
+    {
+      "state": "Raja Annamalai Puram",
+      "total_fiscal_risk": 0.0
+    }
+  ],
+  "welfare_risk_districts": [
+    {
+      "district": "Pashchim Champaran",
+      "welfare_risk_score": 10716.0
+    },
+    {
+      "district": "Purbi Champaran",
+      "welfare_risk_score": 10071.0
+    },
+    {
+      "district": "Bengaluru Urban",
+      "welfare_risk_score": 7167.0
+    },
+    {
+      "district": "Banas Kantha",
+      "welfare_risk_score": 6662.0
+    },
+    {
+      "district": "East Khasi Hills",
+      "welfare_risk_score": 6641.0
+    },
+    {
+      "district": "Dohad",
+      "welfare_risk_score": 5194.0
+    },
+    {
+      "district": "Dinajpur Uttar",
+      "welfare_risk_score": 4859.0
+    },
+    {
+      "district": "West Khasi Hills",
+      "welfare_risk_score": 4855.0
+    },
+    {
+      "district": "Siddharth Nagar",
+      "welfare_risk_score": 2586.0
+    },
+    {
+      "district": "24 Paraganas North",
+      "welfare_risk_score": 2458.0
+    },
+    {
+      "district": "East Garo Hills",
+      "welfare_risk_score": 2393.0
+    },
+    {
+      "district": "Coochbehar",
+      "welfare_risk_score": 2087.0
+    },
+    {
+      "district": "West Garo Hills",
+      "welfare_risk_score": 1963.0
+    },
+    {
+      "district": "South Garo Hills",
+      "welfare_risk_score": 1843.0
+    },
+    {
+      "district": "Ri Bhoi",
+      "welfare_risk_score": 1841.0
+    },
+    {
+      "district": "Ahmadabad",
+      "welfare_risk_score": 1814.0
+    },
+    {
+      "district": "Shravasti",
+      "welfare_risk_score": 1570.0
+    },
+    {
+      "district": "West Jaintia Hills",
+      "welfare_risk_score": 1334.0
+    },
+    {
+      "district": "Ashoknagar",
+      "welfare_risk_score": 1323.0
+    },
+    {
+      "district": "Sabar Kantha",
+      "welfare_risk_score": 1167.0
+    },
+    {
+      "district": "North Garo Hills",
+      "welfare_risk_score": 1109.0
+    },
+    {
+      "district": "Aligarh",
+      "welfare_risk_score": 1013.0
+    },
+    {
+      "district": "Nalanda",
+      "welfare_risk_score": 819.0
+    },
+    {
+      "district": "Rajkot",
+      "welfare_risk_score": 787.0
+    },
+    {
+      "district": "Kushi Nagar",
+      "welfare_risk_score": 777.0
+    },
+    {
+      "district": "Bengaluru Rural",
+      "welfare_risk_score": 729.0
+    },
+    {
+      "district": "Spsr Nellore",
+      "welfare_risk_score": 713.0
+    },
+    {
+      "district": "Barabanki",
+      "welfare_risk_score": 711.0
+    },
+    {
+      "district": "Gurugram",
+      "welfare_risk_score": 625.0
+    },
+    {
+      "district": "Mathura",
+      "welfare_risk_score": 609.0
+    },
+    {
+      "district": "Surendranagar",
+      "welfare_risk_score": 574.0
+    },
+    {
+      "district": "North Delhi",
+      "welfare_risk_score": 553.0
+    },
+    {
+      "district": "East Singhbum",
+      "welfare_risk_score": 546.0
+    },
+    {
+      "district": "East Jaintia Hills",
+      "welfare_risk_score": 446.0
+    },
+    {
+      "district": "Panch Mahals",
+      "welfare_risk_score": 432.0
+    },
+    {
+      "district": "New Delhi",
+      "welfare_risk_score": 421.0
+    },
+    {
+      "district": "Arwal",
+      "welfare_risk_score": 307.0
+    },
+    {
+      "district": "Bhagalpur",
+      "welfare_risk_score": 303.0
+    },
+    {
+      "district": "Medinipur West",
+      "welfare_risk_score": 300.0
+    },
+    {
+      "district": "Gaurella Pendra Marwahi",
+      "welfare_risk_score": 290.0
+    },
+    {
+      "district": "Medchal Malkajgiri",
+      "welfare_risk_score": 265.0
+    },
+    {
+      "district": "Dinajpur Dakshin",
+      "welfare_risk_score": 256.0
+    },
+    {
+      "district": "West Karbi Anglong",
+      "welfare_risk_score": 230.0
+    },
+    {
+      "district": "Eastern West Khasi Hills",
+      "welfare_risk_score": 224.0
+    },
+    {
+      "district": "Nuh",
+      "welfare_risk_score": 213.0
+    },
+    {
+      "district": "Banka",
+      "welfare_risk_score": 198.0
+    },
+    {
+      "district": "Cachar",
+      "welfare_risk_score": 196.0
+    },
+    {
+      "district": "Kheri",
+      "welfare_risk_score": 195.0
+    },
+    {
+      "district": "Shamator",
+      "welfare_risk_score": 185.0
+    },
+    {
+      "district": "Barpeta",
+      "welfare_risk_score": 185.0
+    }
+  ],
+  "recommendations": [
+    {
+      "pincode": 491559,
+      "state": "Chhattisgarh",
+      "district": "Kawardha",
+      "age_5_17": 122.0,
+      "bio_age_5_17": 9475.0,
+      "demo_age_17_": 33998.0,
+      "age_18_greater": 1.0,
+      "age_0_5": 780.0,
+      "maintenance_risk": -76.6639344262295,
+      "migration_impact": 33998.0,
+      "norm_maint": 0.9768926110008243,
+      "norm_mig": 1.0,
+      "norm_surge": 0.07417268923545074,
+      "priority_score": 0.6836884334120916,
+      "total_activity": 30346.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 244001,
+      "state": "Uttar Pradesh",
+      "district": "Moradabad",
+      "age_5_17": 4443.0,
+      "bio_age_5_17": 45239.0,
+      "demo_age_17_": 89034.0,
+      "age_18_greater": 163.0,
+      "age_0_5": 10516.0,
+      "maintenance_risk": -9.182084177357641,
+      "migration_impact": 546.2208588957055,
+      "norm_maint": 0.9969705194354782,
+      "norm_mig": 0.016066264453665085,
+      "norm_surge": 1.0,
+      "priority_score": 0.6710122612963811,
+      "total_activity": 87802.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 855107,
+      "state": "Bihar",
+      "district": "Kishanganj",
+      "age_5_17": 446.0,
+      "bio_age_5_17": 12833.0,
+      "demo_age_17_": 28625.0,
+      "age_18_greater": 1.0,
+      "age_0_5": 1685.0,
+      "maintenance_risk": -27.77354260089686,
+      "migration_impact": 28625.0,
+      "norm_maint": 0.9914389935730744,
+      "norm_mig": 0.8419612918406966,
+      "norm_surge": 0.16023202738683912,
+      "priority_score": 0.66454410426687,
+      "total_activity": 38698.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 495115,
+      "state": "Chhattisgarh",
+      "district": "Mungeli",
+      "age_5_17": 137.0,
+      "bio_age_5_17": 8448.0,
+      "demo_age_17_": 26987.0,
+      "age_18_greater": 1.0,
+      "age_0_5": 958.0,
+      "maintenance_risk": -60.66423357664234,
+      "migration_impact": 26987.0,
+      "norm_maint": 0.9816530099444681,
+      "norm_mig": 0.7937819871757162,
+      "norm_surge": 0.09109927729174591,
+      "priority_score": 0.6221780914706434,
+      "total_activity": 24915.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 110096,
+      "state": "Delhi",
+      "district": "East Delhi",
+      "age_5_17": 223.0,
+      "bio_age_5_17": 9761.0,
+      "demo_age_17_": 26280.0,
+      "age_18_greater": 1.0,
+      "age_0_5": 643.0,
+      "maintenance_risk": -42.771300448430495,
+      "migration_impact": 26280.0,
+      "norm_maint": 0.9869767032286728,
+      "norm_mig": 0.7729866462733102,
+      "norm_surge": 0.06114492202358311,
+      "priority_score": 0.607036090508522,
+      "total_activity": 19318.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 494001,
+      "state": "Chhattisgarh",
+      "district": "Bastar",
+      "age_5_17": 289.0,
+      "bio_age_5_17": 6576.0,
+      "demo_age_17_": 22994.0,
+      "age_18_greater": 1.0,
+      "age_0_5": 944.0,
+      "maintenance_risk": -21.75432525951557,
+      "migration_impact": 22994.0,
+      "norm_maint": 0.9932298942994597,
+      "norm_mig": 0.6763339019942349,
+      "norm_surge": 0.0897679726131609,
+      "priority_score": 0.5864439229689519,
+      "total_activity": 21219.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 244713,
+      "state": "Uttarakhand",
+      "district": "Udham Singh Nagar",
+      "age_5_17": 218.0,
+      "bio_age_5_17": 18213.0,
+      "demo_age_17_": 22617.0,
+      "age_18_greater": 1.0,
+      "age_0_5": 998.0,
+      "maintenance_risk": -82.54587155963303,
+      "migration_impact": 22617.0,
+      "norm_maint": 0.9751425553229297,
+      "norm_mig": 0.6652450144126125,
+      "norm_surge": 0.09490300494484595,
+      "priority_score": 0.5784301915601294,
+      "total_activity": 34153.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 247001,
+      "state": "Uttar Pradesh",
+      "district": "Saharanpur",
+      "age_5_17": 2979.0,
+      "bio_age_5_17": 31809.0,
+      "demo_age_17_": 69772.0,
+      "age_18_greater": 68.0,
+      "age_0_5": 7142.0,
+      "maintenance_risk": -9.677744209466264,
+      "migration_impact": 1026.0588235294117,
+      "norm_maint": 0.9968230454598433,
+      "norm_mig": 0.030179975984746508,
+      "norm_surge": 0.6791555724610118,
+      "priority_score": 0.5687195313018671,
+      "total_activity": 68627.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 742202,
+      "state": "West Bengal",
+      "district": "Murshidabad",
+      "age_5_17": 458.0,
+      "bio_age_5_17": 3480.0,
+      "demo_age_17_": 27084.0,
+      "age_18_greater": 2.0,
+      "age_0_5": 3229.0,
+      "maintenance_risk": -6.598253275109171,
+      "migration_impact": 13542.0,
+      "norm_maint": 0.9977392879276675,
+      "norm_mig": 0.3983175480910642,
+      "norm_surge": 0.3070559147965006,
+      "priority_score": 0.5677042502717441,
+      "total_activity": 11092.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 110059,
+      "state": "Delhi",
+      "district": "West Delhi",
+      "age_5_17": 2425.0,
+      "bio_age_5_17": 24328.0,
+      "demo_age_17_": 104241.0,
+      "age_18_greater": 740.0,
+      "age_0_5": 7297.0,
+      "maintenance_risk": -9.032164948453609,
+      "migration_impact": 140.86621621621623,
+      "norm_maint": 0.9970151249781453,
+      "norm_mig": 0.004143367733873058,
+      "norm_surge": 0.6938950171167745,
+      "priority_score": 0.5650178366095976,
+      "total_activity": 65101.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 732125,
+      "state": "West Bengal",
+      "district": "Malda",
+      "age_5_17": 368.0,
+      "bio_age_5_17": 5063.0,
+      "demo_age_17_": 35524.0,
+      "age_18_greater": 2.0,
+      "age_0_5": 1575.0,
+      "maintenance_risk": -12.758152173913043,
+      "migration_impact": 17762.0,
+      "norm_maint": 0.995906530147601,
+      "norm_mig": 0.5224424966174481,
+      "norm_surge": 0.149771776340814,
+      "priority_score": 0.5560402677019544,
+      "total_activity": 14606.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 123401,
+      "state": "Haryana",
+      "district": "Rewari",
+      "age_5_17": 49.0,
+      "bio_age_5_17": 8897.0,
+      "demo_age_17_": 20617.0,
+      "age_18_greater": 1.0,
+      "age_0_5": 834.0,
+      "maintenance_risk": -180.57142857142858,
+      "migration_impact": 20617.0,
+      "norm_maint": 0.9459769626386704,
+      "norm_mig": 0.6064180245896817,
+      "norm_surge": 0.0793077215671358,
+      "priority_score": 0.5439009029318292,
+      "total_activity": 19057.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 121004,
+      "state": "Haryana",
+      "district": "Faridabad",
+      "age_5_17": 1567.0,
+      "bio_age_5_17": 19395.0,
+      "demo_age_17_": 56943.0,
+      "age_18_greater": 141.0,
+      "age_0_5": 6399.0,
+      "maintenance_risk": -11.377153797064455,
+      "migration_impact": 403.8510638297872,
+      "norm_maint": 0.9963174192808496,
+      "norm_mig": 0.011878671210947328,
+      "norm_surge": 0.6085013313046786,
+      "priority_score": 0.5388991405988253,
+      "total_activity": 47032.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 497225,
+      "state": "Chhattisgarh",
+      "district": "Balrampur",
+      "age_5_17": 425.0,
+      "bio_age_5_17": 4038.0,
+      "demo_age_17_": 16906.0,
+      "age_18_greater": 1.0,
+      "age_0_5": 1208.0,
+      "maintenance_risk": -8.501176470588236,
+      "migration_impact": 16906.0,
+      "norm_maint": 0.9971731102438,
+      "norm_mig": 0.49726454497323375,
+      "norm_surge": 0.11487257512362115,
+      "priority_score": 0.536436743446885,
+      "total_activity": 17091.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 202001,
+      "state": "Uttar Pradesh",
+      "district": "Aligarh",
+      "age_5_17": 5269.0,
+      "bio_age_5_17": 37196.0,
+      "demo_age_17_": 75747.0,
+      "age_18_greater": 268.0,
+      "age_0_5": 6296.0,
+      "maintenance_risk": -6.059404061491744,
+      "migration_impact": 282.6380597014925,
+      "norm_maint": 0.9978996120019363,
+      "norm_mig": 0.0083133731308163,
+      "norm_surge": 0.598706732597946,
+      "priority_score": 0.5349732392435662,
+      "total_activity": 65611.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 110093,
+      "state": "Delhi",
+      "district": "North East Delhi",
+      "age_5_17": 208.0,
+      "bio_age_5_17": 16526.0,
+      "demo_age_17_": 18512.0,
+      "age_18_greater": 1.0,
+      "age_0_5": 786.0,
+      "maintenance_risk": -78.45192307692308,
+      "migration_impact": 18512.0,
+      "norm_maint": 0.9763606298491749,
+      "norm_mig": 0.5445026178010471,
+      "norm_surge": 0.07474324838341576,
+      "priority_score": 0.5318688320112126,
+      "total_activity": 43056.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 742213,
+      "state": "West Bengal",
+      "district": "Murshidabad",
+      "age_5_17": 178.0,
+      "bio_age_5_17": 3403.0,
+      "demo_age_17_": 16023.0,
+      "age_18_greater": 1.0,
+      "age_0_5": 1331.0,
+      "maintenance_risk": -18.117977528089888,
+      "migration_impact": 16023.0,
+      "norm_maint": 0.9943118186468045,
+      "norm_mig": 0.47129242896640977,
+      "norm_surge": 0.12656903765690378,
+      "priority_score": 0.5307244284233726,
+      "total_activity": 9533.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 495224,
+      "state": "Chhattisgarh",
+      "district": "Bilaspur",
+      "age_5_17": 74.0,
+      "bio_age_5_17": 4445.0,
+      "demo_age_17_": 18819.0,
+      "age_18_greater": 1.0,
+      "age_0_5": 527.0,
+      "maintenance_risk": -59.067567567567565,
+      "migration_impact": 18819.0,
+      "norm_maint": 0.9821280667754931,
+      "norm_mig": 0.553532560738867,
+      "norm_surge": 0.050114111829593,
+      "priority_score": 0.5285915797813177,
+      "total_activity": 20446.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 244901,
+      "state": "Uttar Pradesh",
+      "district": "Rampur",
+      "age_5_17": 3554.0,
+      "bio_age_5_17": 27350.0,
+      "demo_age_17_": 70134.0,
+      "age_18_greater": 165.0,
+      "age_0_5": 5853.0,
+      "maintenance_risk": -6.695554305008441,
+      "migration_impact": 425.05454545454546,
+      "norm_maint": 0.9977103379038951,
+      "norm_mig": 0.012502339709822504,
+      "norm_surge": 0.5565804488398631,
+      "priority_score": 0.5222643754845269,
+      "total_activity": 48665.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 250002,
+      "state": "Uttar Pradesh",
+      "district": "Meerut",
+      "age_5_17": 3573.0,
+      "bio_age_5_17": 24895.0,
+      "demo_age_17_": 41625.0,
+      "age_18_greater": 83.0,
+      "age_0_5": 5722.0,
+      "maintenance_risk": -5.967534284914637,
+      "migration_impact": 501.50602409638554,
+      "norm_maint": 0.9979269460622092,
+      "norm_mig": 0.01475104488782827,
+      "norm_surge": 0.5441232407759604,
+      "priority_score": 0.518933743908666,
+      "total_activity": 49574.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 431001,
+      "state": "Maharashtra",
+      "district": "Aurangabad",
+      "age_5_17": 2751.0,
+      "bio_age_5_17": 27175.0,
+      "demo_age_17_": 29900.0,
+      "age_18_greater": 129.0,
+      "age_0_5": 5765.0,
+      "maintenance_risk": -8.878226099600145,
+      "migration_impact": 231.7829457364341,
+      "norm_maint": 0.9970609264803332,
+      "norm_mig": 0.0068175464949830605,
+      "norm_surge": 0.548212248003043,
+      "priority_score": 0.5173635736594532,
+      "total_activity": 88644.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 494226,
+      "state": "Chhattisgarh",
+      "district": "Kondagaon",
+      "age_5_17": 625.0,
+      "bio_age_5_17": 9389.0,
+      "demo_age_17_": 43545.0,
+      "age_18_greater": 3.0,
+      "age_0_5": 1033.0,
+      "maintenance_risk": -14.0224,
+      "migration_impact": 14515.0,
+      "norm_maint": 0.995530377863731,
+      "norm_mig": 0.42693687863992,
+      "norm_surge": 0.09823126664130849,
+      "priority_score": 0.5068995077149865,
+      "total_activity": 27614.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 110094,
+      "state": "Delhi",
+      "district": "North East Delhi",
+      "age_5_17": 2463.0,
+      "bio_age_5_17": 30880.0,
+      "demo_age_17_": 77457.0,
+      "age_18_greater": 46.0,
+      "age_0_5": 4928.0,
+      "maintenance_risk": -11.537555826228177,
+      "migration_impact": 1683.8478260869565,
+      "norm_maint": 0.9962696947854126,
+      "norm_mig": 0.04952784946429074,
+      "norm_surge": 0.4686192468619247,
+      "priority_score": 0.5048055970372093,
+      "total_activity": 84402.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 121102,
+      "state": "Haryana",
+      "district": "Palwal",
+      "age_5_17": 117.0,
+      "bio_age_5_17": 12372.0,
+      "demo_age_17_": 26772.0,
+      "age_18_greater": 2.0,
+      "age_0_5": 1590.0,
+      "maintenance_risk": -104.74358974358974,
+      "migration_impact": 13386.0,
+      "norm_maint": 0.9685380572021453,
+      "norm_mig": 0.3937290428848756,
+      "norm_surge": 0.1511981742107265,
+      "priority_score": 0.5044884247659157,
+      "total_activity": 26296.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 263153,
+      "state": "Uttarakhand",
+      "district": "Udham Singh Nagar",
+      "age_5_17": 162.0,
+      "bio_age_5_17": 10551.0,
+      "demo_age_17_": 15703.0,
+      "age_18_greater": 1.0,
+      "age_0_5": 656.0,
+      "maintenance_risk": -64.12962962962963,
+      "migration_impact": 15703.0,
+      "norm_maint": 0.980621948934951,
+      "norm_mig": 0.4618801105947409,
+      "norm_surge": 0.062381133510840625,
+      "priority_score": 0.5016277310135109,
+      "total_activity": 16577.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 421302,
+      "state": "Maharashtra",
+      "district": "Thane",
+      "age_5_17": 2538.0,
+      "bio_age_5_17": 17948.0,
+      "demo_age_17_": 56402.0,
+      "age_18_greater": 120.0,
+      "age_0_5": 5138.0,
+      "maintenance_risk": -6.07171000788022,
+      "migration_impact": 470.01666666666665,
+      "norm_maint": 0.9978959506075928,
+      "norm_mig": 0.01382483283330392,
+      "norm_surge": 0.4885888170406999,
+      "priority_score": 0.5001032001605322,
+      "total_activity": 55237.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 533101,
+      "state": "Andhra Pradesh",
+      "district": "East Godavari",
+      "age_5_17": 35.0,
+      "bio_age_5_17": 8774.0,
+      "demo_age_17_": 18370.0,
+      "age_18_greater": 1.0,
+      "age_0_5": 331.0,
+      "maintenance_risk": -249.68571428571428,
+      "migration_impact": 18370.0,
+      "norm_maint": 0.925413354868874,
+      "norm_mig": 0.540325901523619,
+      "norm_surge": 0.03147584632940281,
+      "priority_score": 0.4990717009072987,
+      "total_activity": 13468.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 855113,
+      "state": "Bihar",
+      "district": "Katihar",
+      "age_5_17": 387.0,
+      "bio_age_5_17": 12906.0,
+      "demo_age_17_": 24709.0,
+      "age_18_greater": 2.0,
+      "age_0_5": 1400.0,
+      "maintenance_risk": -32.348837209302324,
+      "migration_impact": 12354.5,
+      "norm_maint": 0.9900777038948817,
+      "norm_mig": 0.36338902288369906,
+      "norm_surge": 0.13313046785850133,
+      "priority_score": 0.49553239821236067,
+      "total_activity": 27852.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 493228,
+      "state": "Chhattisgarh",
+      "district": "Baloda Bazar",
+      "age_5_17": 50.0,
+      "bio_age_5_17": 5015.0,
+      "demo_age_17_": 16156.0,
+      "age_18_greater": 1.0,
+      "age_0_5": 406.0,
+      "maintenance_risk": -99.3,
+      "migration_impact": 16156.0,
+      "norm_maint": 0.9701576911633442,
+      "norm_mig": 0.4752044237896347,
+      "norm_surge": 0.038607835678965384,
+      "priority_score": 0.49465665021064814,
+      "total_activity": 14497.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 242001,
+      "state": "Uttar Pradesh",
+      "district": "Shahjahanpur",
+      "age_5_17": 3543.0,
+      "bio_age_5_17": 27105.0,
+      "demo_age_17_": 53349.0,
+      "age_18_greater": 103.0,
+      "age_0_5": 4865.0,
+      "maintenance_risk": -6.650296359017782,
+      "migration_impact": 517.9514563106796,
+      "norm_maint": 0.9977238035230532,
+      "norm_mig": 0.015234762524580258,
+      "norm_surge": 0.46262837580829214,
+      "priority_score": 0.49186231395197516,
+      "total_activity": 44189.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 283203,
+      "state": "Uttar Pradesh",
+      "district": "Firozabad",
+      "age_5_17": 2523.0,
+      "bio_age_5_17": 35859.0,
+      "demo_age_17_": 81662.0,
+      "age_18_greater": 68.0,
+      "age_0_5": 4607.0,
+      "maintenance_risk": -13.212841854934602,
+      "migration_impact": 1200.9117647058824,
+      "norm_maint": 0.9957712461008823,
+      "norm_mig": 0.03532301208029538,
+      "norm_surge": 0.4380943324457969,
+      "priority_score": 0.4897295302089915,
+      "total_activity": 54997.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 494442,
+      "state": "Chhattisgarh",
+      "district": "Bastar",
+      "age_5_17": 345.0,
+      "bio_age_5_17": 4657.0,
+      "demo_age_17_": 12616.0,
+      "age_18_greater": 1.0,
+      "age_0_5": 961.0,
+      "maintenance_risk": -12.498550724637681,
+      "migration_impact": 12616.0,
+      "norm_maint": 0.9959837694957936,
+      "norm_mig": 0.3710806518030472,
+      "norm_surge": 0.09138455686572841,
+      "priority_score": 0.4861496593881897,
+      "total_activity": 15675.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 282001,
+      "state": "Uttar Pradesh",
+      "district": "Agra",
+      "age_5_17": 3650.0,
+      "bio_age_5_17": 17725.0,
+      "demo_age_17_": 22575.0,
+      "age_18_greater": 256.0,
+      "age_0_5": 4780.0,
+      "maintenance_risk": -3.8561643835616435,
+      "migration_impact": 88.18359375,
+      "norm_maint": 0.9985551429980477,
+      "norm_mig": 0.0025937876860403553,
+      "norm_surge": 0.4545454545454546,
+      "priority_score": 0.48523146174318094,
+      "total_activity": 35284.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 795103,
+      "state": "Manipur",
+      "district": "Thoubal",
+      "age_5_17": 105.0,
+      "bio_age_5_17": 8012.0,
+      "demo_age_17_": 15910.0,
+      "age_18_greater": 1.0,
+      "age_0_5": 72.0,
+      "maintenance_risk": -75.3047619047619,
+      "migration_impact": 15910.0,
+      "norm_maint": 0.9772970062764766,
+      "norm_mig": 0.4679687040414142,
+      "norm_surge": 0.006846709775580068,
+      "priority_score": 0.48403747336449027,
+      "total_activity": 14816.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 410206,
+      "state": "Maharashtra",
+      "district": "Raigarh",
+      "age_5_17": 197.0,
+      "bio_age_5_17": 12204.0,
+      "demo_age_17_": 13243.0,
+      "age_18_greater": 1.0,
+      "age_0_5": 848.0,
+      "maintenance_risk": -60.9492385786802,
+      "migration_impact": 13243.0,
+      "norm_maint": 0.9815682122645997,
+      "norm_mig": 0.38952291311253606,
+      "norm_surge": 0.08063902624572081,
+      "priority_score": 0.48391005054095215,
+      "total_activity": 30119.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 451666,
+      "state": "Madhya Pradesh",
+      "district": "Barwani",
+      "age_5_17": 3460.0,
+      "bio_age_5_17": 23493.0,
+      "demo_age_17_": 20814.0,
+      "age_18_greater": 271.0,
+      "age_0_5": 4728.0,
+      "maintenance_risk": -5.789884393063584,
+      "migration_impact": 76.80442804428044,
+      "norm_maint": 0.9979798023228016,
+      "norm_mig": 0.002259086653458452,
+      "norm_surge": 0.44960060859642453,
+      "priority_score": 0.48327983252422824,
+      "total_activity": 53366.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 854315,
+      "state": "Bihar",
+      "district": "Purnia",
+      "age_5_17": 677.0,
+      "bio_age_5_17": 17230.0,
+      "demo_age_17_": 24429.0,
+      "age_18_greater": 3.0,
+      "age_0_5": 2274.0,
+      "maintenance_risk": -24.450516986706056,
+      "migration_impact": 8143.0,
+      "norm_maint": 0.992427695035196,
+      "norm_mig": 0.2395140890640626,
+      "norm_surge": 0.21624191707873716,
+      "priority_score": 0.4827279003926652,
+      "total_activity": 37371.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 342001,
+      "state": "Rajasthan",
+      "district": "Jodhpur",
+      "age_5_17": 1570.0,
+      "bio_age_5_17": 12620.0,
+      "demo_age_17_": 22882.0,
+      "age_18_greater": 269.0,
+      "age_0_5": 4677.0,
+      "maintenance_risk": -7.038216560509554,
+      "migration_impact": 85.06319702602231,
+      "norm_maint": 0.9976083854327552,
+      "norm_mig": 0.0025020059128778842,
+      "norm_surge": 0.444750855838722,
+      "priority_score": 0.48162041572811837,
+      "total_activity": 32770.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 476001,
+      "state": "Madhya Pradesh",
+      "district": "Morena",
+      "age_5_17": 2102.0,
+      "bio_age_5_17": 21223.0,
+      "demo_age_17_": 28512.0,
+      "age_18_greater": 164.0,
+      "age_0_5": 4649.0,
+      "maintenance_risk": -9.096574690770694,
+      "migration_impact": 173.85365853658536,
+      "norm_maint": 0.99699596111551,
+      "norm_mig": 0.005113643700705493,
+      "norm_surge": 0.4420882464815519,
+      "priority_score": 0.48139928376592245,
+      "total_activity": 36971.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 732102,
+      "state": "West Bengal",
+      "district": "Malda",
+      "age_5_17": 109.0,
+      "bio_age_5_17": 2151.0,
+      "demo_age_17_": 13122.0,
+      "age_18_greater": 1.0,
+      "age_0_5": 626.0,
+      "maintenance_risk": -18.73394495412844,
+      "migration_impact": 13122.0,
+      "norm_maint": 0.9941285495524759,
+      "norm_mig": 0.38596388022824873,
+      "norm_surge": 0.0595283377710156,
+      "priority_score": 0.47987358918391343,
+      "total_activity": 7220.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 470880,
+      "state": "Madhya Pradesh",
+      "district": "Damoh",
+      "age_5_17": 164.0,
+      "bio_age_5_17": 12335.0,
+      "demo_age_17_": 12604.0,
+      "age_18_greater": 1.0,
+      "age_0_5": 864.0,
+      "maintenance_risk": -74.21341463414635,
+      "migration_impact": 12604.0,
+      "norm_maint": 0.977621715372167,
+      "norm_mig": 0.37072768986410964,
+      "norm_surge": 0.08216051730696082,
+      "priority_score": 0.47683664084774585,
+      "total_activity": 24434.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 851211,
+      "state": "Bihar",
+      "district": "Begusarai",
+      "age_5_17": 468.0,
+      "bio_age_5_17": 7503.0,
+      "demo_age_17_": 12436.0,
+      "age_18_greater": 1.0,
+      "age_0_5": 686.0,
+      "maintenance_risk": -15.032051282051281,
+      "migration_impact": 12436.0,
+      "norm_maint": 0.9952299758161108,
+      "norm_mig": 0.3657862227189835,
+      "norm_surge": 0.06523392925066565,
+      "priority_score": 0.47541670926192,
+      "total_activity": 15584.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 301001,
+      "state": "Rajasthan",
+      "district": "Alwar",
+      "age_5_17": 1664.0,
+      "bio_age_5_17": 15102.0,
+      "demo_age_17_": 27242.0,
+      "age_18_greater": 106.0,
+      "age_0_5": 4380.0,
+      "maintenance_risk": -8.075721153846153,
+      "migration_impact": 257.0,
+      "norm_maint": 0.9972996961755887,
+      "norm_mig": 0.007559268192246603,
+      "norm_surge": 0.41650817801445417,
+      "priority_score": 0.4737890474607631,
+      "total_activity": 31523.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 803107,
+      "state": "Bihar",
+      "district": "Nalanda",
+      "age_5_17": 710.0,
+      "bio_age_5_17": 5374.0,
+      "demo_age_17_": 13393.0,
+      "age_18_greater": 1.0,
+      "age_0_5": 289.0,
+      "maintenance_risk": -6.569014084507042,
+      "migration_impact": 13393.0,
+      "norm_maint": 0.9977479874785756,
+      "norm_mig": 0.39393493734925583,
+      "norm_surge": 0.027481932293647777,
+      "priority_score": 0.4730549523738264,
+      "total_activity": 11756.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 504001,
+      "state": "Telangana",
+      "district": "Adilabad",
+      "age_5_17": 79.0,
+      "bio_age_5_17": 4662.0,
+      "demo_age_17_": 13085.0,
+      "age_18_greater": 1.0,
+      "age_0_5": 503.0,
+      "maintenance_risk": -58.0126582278481,
+      "migration_impact": 13085.0,
+      "norm_maint": 0.9824419344754989,
+      "norm_mig": 0.3848755809165245,
+      "norm_surge": 0.04783187523773298,
+      "priority_score": 0.4717164635432521,
+      "total_activity": 12692.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 132103,
+      "state": "Haryana",
+      "district": "Panipat",
+      "age_5_17": 470.0,
+      "bio_age_5_17": 19853.0,
+      "demo_age_17_": 46825.0,
+      "age_18_greater": 44.0,
+      "age_0_5": 4150.0,
+      "maintenance_risk": -41.240425531914894,
+      "migration_impact": 1064.2045454545455,
+      "norm_maint": 0.9874321852032386,
+      "norm_mig": 0.0313019749824856,
+      "norm_surge": 0.39463674400912896,
+      "priority_score": 0.4711236347316177,
+      "total_activity": 52469.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 231216,
+      "state": "Uttar Pradesh",
+      "district": "Sonbhadra",
+      "age_5_17": 440.0,
+      "bio_age_5_17": 13532.0,
+      "demo_age_17_": 12455.0,
+      "age_18_greater": 1.0,
+      "age_0_5": 583.0,
+      "maintenance_risk": -29.754545454545454,
+      "migration_impact": 12455.0,
+      "norm_maint": 0.9908495848097156,
+      "norm_mig": 0.3663450791223013,
+      "norm_surge": 0.05543933054393305,
+      "priority_score": 0.47087799815865,
+      "total_activity": 20072.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 225305,
+      "state": "Uttar Pradesh",
+      "district": "Bara Banki",
+      "age_5_17": 264.0,
+      "bio_age_5_17": 8754.0,
+      "demo_age_17_": 12724.0,
+      "age_18_greater": 1.0,
+      "age_0_5": 483.0,
+      "maintenance_risk": -32.15909090909091,
+      "migration_impact": 12724.0,
+      "norm_maint": 0.990134159205864,
+      "norm_mig": 0.3742573092534855,
+      "norm_surge": 0.04593001141118296,
+      "priority_score": 0.4701071599568441,
+      "total_activity": 14737.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 143001,
+      "state": "Punjab",
+      "district": "Amritsar",
+      "age_5_17": 1264.0,
+      "bio_age_5_17": 18534.0,
+      "demo_age_17_": 51586.0,
+      "age_18_greater": 201.0,
+      "age_0_5": 4267.0,
+      "maintenance_risk": -13.662974683544304,
+      "migration_impact": 256.6467661691542,
+      "norm_maint": 0.9956373178567258,
+      "norm_mig": 0.0075488783507604625,
+      "norm_surge": 0.40576264739444656,
+      "priority_score": 0.46964961453397763,
+      "total_activity": 48431.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    },
+    {
+      "pincode": 272175,
+      "state": "Uttar Pradesh",
+      "district": "Sant Kabir Nagar",
+      "age_5_17": 507.0,
+      "bio_age_5_17": 8300.0,
+      "demo_age_17_": 12363.0,
+      "age_18_greater": 1.0,
+      "age_0_5": 458.0,
+      "maintenance_risk": -15.370808678500985,
+      "migration_impact": 12363.0,
+      "norm_maint": 0.9951291851596248,
+      "norm_mig": 0.3636390375904465,
+      "norm_surge": 0.043552681627995436,
+      "priority_score": 0.46744030145935556,
+      "total_activity": 14823.0,
+      "recommendation": "Aadhaar Seva Kendra (ASK)"
+    }
+  ],
+  "action_plan": [
+    {
+      "title": "DBT Shield Mobile Camps",
+      "description": "Deploy mobile biometric camps in Maintenance Deserts.",
+      "target": "High-risk pincodes with low activity",
+      "priority": "Critical"
+    },
+    {
+      "title": "Migrant Connect Centers",
+      "description": "Establish multi-lingual facilitation centers in Migration Hotspots.",
+      "target": "Districts with high demographic updates",
+      "priority": "High"
+    },
+    {
+      "title": "Future Ready School Program",
+      "description": "School-based biometric drives for children aging into mandatory updates.",
+      "target": "States with high projected surge",
+      "priority": "Medium"
+    },
+    {
+      "title": "Performance-Based Allocation",
+      "description": "Dynamic resource allocation based on real-time priority scores.",
+      "target": "All districts",
+      "priority": "Ongoing"
+    }
+  ],
+  "full_state_stats": [],
+  "map_data": {
+    "100000": {
+      "priority_score": 0.333333423697373,
+      "projected_surge": 0,
+      "fiscal_risk": 2500.0,
+      "maintenance_gap": 1.0,
+      "migration_churn": 0.009216589861751152,
+      "total_enrollment": 218,
+      "total_updates": 2
+    },
+    "Andaman & Nicobar Islands": {
+      "priority_score": 0.33213453230580725,
+      "projected_surge": 109,
+      "fiscal_risk": 0.0,
+      "maintenance_gap": -80.0,
+      "migration_churn": 0.0,
+      "total_enrollment": 114,
+      "total_updates": 3443
+    },
+    "Andaman And Nicobar Islands": {
+      "priority_score": 0.3116408326443538,
+      "projected_surge": 370,
+      "fiscal_risk": 0.0,
+      "maintenance_gap": -421.25925925925924,
+      "migration_churn": 0.0,
+      "total_enrollment": 397,
+      "total_updates": 24501
+    },
+    "Andhra Pradesh": {
+      "priority_score": 0.3186028571453503,
+      "projected_surge": 112445,
+      "fiscal_risk": 3030000.0,
+      "maintenance_gap": -162.0632183908046,
+      "migration_churn": 1320.6916387959866,
+      "total_enrollment": 127686,
+      "total_updates": 6010215
+    },
+    "Arunachal Pradesh": {
+      "priority_score": 0.33189871228258877,
+      "projected_surge": 1957,
+      "fiscal_risk": 0.0,
+      "maintenance_gap": -18.183363148479426,
+      "migration_churn": 203.04635761589404,
+      "total_enrollment": 4344,
+      "total_updates": 108837
+    },
+    "Assam": {
+      "priority_score": 0.33771417533135045,
+      "projected_surge": 141235,
+      "fiscal_risk": 2502500.0,
+      "maintenance_gap": -8.02813043807218,
+      "migration_churn": 40.56904314376885,
+      "total_enrollment": 230197,
+      "total_updates": 1995300
+    },
+    "Balanagar": {
+      "priority_score": 0.3333333333333333,
+      "projected_surge": 0,
+      "fiscal_risk": 0.0,
+      "maintenance_gap": 0.0,
+      "migration_churn": 0.0,
+      "total_enrollment": 0,
+      "total_updates": 2
+    },
+    "Bihar": {
+      "priority_score": 0.34761470755606416,
+      "projected_surge": 262875,
+      "fiscal_risk": 56797500.0,
+      "maintenance_gap": -5.595363826978334,
+      "migration_churn": 372.3821800470272,
+      "total_enrollment": 609585,
+      "total_updates": 9711937
+    },
+    "Chandigarh": {
+      "priority_score": 0.32633457797727927,
+      "projected_surge": 2476,
+      "fiscal_risk": 0.0,
+      "maintenance_gap": -232.03791469194312,
+      "migration_churn": 1950.7777777777778,
+      "total_enrollment": 2723,
+      "total_updates": 157843
+    },
+    "Chhatisgarh": {
+      "priority_score": 0.3333333333333333,
+      "projected_surge": 0,
+      "fiscal_risk": 0.0,
+      "maintenance_gap": 0.0,
+      "migration_churn": 0.0,
+      "total_enrollment": 0,
+      "total_updates": 9
+    },
+    "Chhattisgarh": {
+      "priority_score": 0.3383131238487649,
+      "projected_surge": 82453,
+      "fiscal_risk": 925000.0,
+      "maintenance_gap": -46.12840321807235,
+      "migration_churn": 921.4957436154232,
+      "total_enrollment": 103219,
+      "total_updates": 4654163
+    },
+    "Dadra & Nagar Haveli": {
+      "priority_score": 0.3329291393290639,
+      "projected_surge": 22,
+      "fiscal_risk": 0.0,
+      "maintenance_gap": -23.0,
+      "migration_churn": 0.0,
+      "total_enrollment": 25,
+      "total_updates": 788
+    },
+    "Dadra And Nagar Haveli": {
+      "priority_score": 0.3272390536448797,
+      "projected_surge": 669,
+      "fiscal_risk": 352500.0,
+      "maintenance_gap": -150.98591549295776,
+      "migration_churn": 1180.75,
+      "total_enrollment": 744,
+      "total_updates": 33268
+    },
+    "Dadra And Nagar Haveli And Daman And Diu": {
+      "priority_score": 0.3331797104067638,
+      "projected_surge": 131,
+      "fiscal_risk": 352500.0,
+      "maintenance_gap": -34.857142857142854,
+      "migration_churn": 163.52380952380952,
+      "total_enrollment": 173,
+      "total_updates": 6272
+    },
+    "Daman & Diu": {
+      "priority_score": 0.32800539847904464,
+      "projected_surge": 20,
+      "fiscal_risk": 0.0,
+      "maintenance_gap": -530.0,
+      "migration_churn": 0.0,
+      "total_enrollment": 21,
+      "total_updates": 2829
+    },
+    "Daman And Diu": {
+      "priority_score": 0.3010931173336452,
+      "projected_surge": 107,
+      "fiscal_risk": 0.0,
+      "maintenance_gap": -323.2307692307692,
+      "migration_churn": 0.0,
+      "total_enrollment": 120,
+      "total_updates": 8315
+    },
+    "Darbhanga": {
+      "priority_score": 0.3333333333333333,
+      "projected_surge": 0,
+      "fiscal_risk": 0.0,
+      "maintenance_gap": 0.0,
+      "migration_churn": 0.0,
+      "total_enrollment": 0,
+      "total_updates": 2
+    },
+    "Delhi": {
+      "priority_score": 0.35814473660973983,
+      "projected_surge": 69183,
+      "fiscal_risk": 2785000.0,
+      "maintenance_gap": -23.947838177251526,
+      "migration_churn": 414.22918032786885,
+      "total_enrollment": 94529,
+      "total_updates": 2743296
+    },
+    "Goa": {
+      "priority_score": 0.32559211365579543,
+      "projected_surge": 1916,
+      "fiscal_risk": 0.0,
+      "maintenance_gap": -133.8188976377953,
+      "migration_churn": 195.3680981595092,
+      "total_enrollment": 2333,
+      "total_updates": 103517
+    },
+    "Gujarat": {
+      "priority_score": 0.3320050584631731,
+      "projected_surge": 193031,
+      "fiscal_risk": 42262500.0,
+      "maintenance_gap": -19.520005057458345,
+      "migration_churn": 98.9136263467189,
+      "total_enrollment": 280549,
+      "total_updates": 5020841
+    },
+    "Haryana": {
+      "priority_score": 0.32425283145874634,
+      "projected_surge": 88042,
+      "fiscal_risk": 2097500.0,
+      "maintenance_gap": -75.14346871569704,
+      "migration_churn": 933.4781818181818,
+      "total_enrollment": 98252,
+      "total_updates": 2801594
+    },
+    "Himachal Pradesh": {
+      "priority_score": 0.32074409848160157,
+      "projected_surge": 16639,
+      "fiscal_risk": 2500.0,
+      "maintenance_gap": -288.8124054462935,
+      "migration_churn": 697.7956989247311,
+      "total_enrollment": 17486,
+      "total_updates": 545448
+    },
+    "Jaipur": {
+      "priority_score": 0.3333333333333333,
+      "projected_surge": 0,
+      "fiscal_risk": 0.0,
+      "maintenance_gap": 0.0,
+      "migration_churn": 0.0,
+      "total_enrollment": 0,
+      "total_updates": 2
+    },
+    "Jammu & Kashmir": {
+      "priority_score": 0.33335925196264604,
+      "projected_surge": 133,
+      "fiscal_risk": 45000.0,
+      "maintenance_gap": -4.181818181818182,
+      "migration_churn": 0.0,
+      "total_enrollment": 155,
+      "total_updates": 855
+    },
+    "Jammu And Kashmir": {
+      "priority_score": 0.3337693682113812,
+      "projected_surge": 40406,
+      "fiscal_risk": 255000.0,
+      "maintenance_gap": -51.529375,
+      "migration_churn": 652.1981308411215,
+      "total_enrollment": 48941,
+      "total_updates": 1197994
+    },
+    "Jharkhand": {
+      "priority_score": 0.3412114811901512,
+      "projected_surge": 98551,
+      "fiscal_risk": 1422500.0,
+      "maintenance_gap": -14.235110099237039,
+      "migration_churn": 898.4216701173223,
+      "total_enrollment": 157539,
+      "total_updates": 3427486
+    },
+    "Karnataka": {
+      "priority_score": 0.32987638797817914,
+      "projected_surge": 179262,
+      "fiscal_risk": 20267500.0,
+      "maintenance_gap": -35.76576204116587,
+      "migration_churn": 141.47418397626112,
+      "total_enrollment": 223235,
+      "total_updates": 4331239
+    },
+    "Kerala": {
+      "priority_score": 0.33160484491694964,
+      "projected_surge": 53737,
+      "fiscal_risk": 35000.0,
+      "maintenance_gap": -33.85416890801506,
+      "migration_churn": 255.65906542056075,
+      "total_enrollment": 75002,
+      "total_updates": 2354682
+    },
+    "Ladakh": {
+      "priority_score": 0.3319503835311705,
+      "projected_surge": 466,
+      "fiscal_risk": 7500.0,
+      "maintenance_gap": -20.1203007518797,
+      "migration_churn": 242.22222222222223,
+      "total_enrollment": 617,
+      "total_updates": 11498
+    },
+    "Lakshadweep": {
+      "priority_score": 0.3289605683742888,
+      "projected_surge": 192,
+      "fiscal_risk": 0.0,
+      "maintenance_gap": -221.6,
+      "migration_churn": 1006.0,
+      "total_enrollment": 203,
+      "total_updates": 5996
+    },
+    "Madanapalle": {
+      "priority_score": 0.3333333333333333,
+      "projected_surge": 0,
+      "fiscal_risk": 0.0,
+      "maintenance_gap": 0.0,
+      "migration_churn": 0.0,
+      "total_enrollment": 0,
+      "total_updates": 2
+    },
+    "Madhya Pradesh": {
+      "priority_score": 0.34290527534329096,
+      "projected_surge": 367990,
+      "fiscal_risk": 3437500.0,
+      "maintenance_gap": -26.49690241534271,
+      "migration_churn": 261.05219293676424,
+      "total_enrollment": 493970,
+      "total_updates": 8836709
+    },
+    "Maharashtra": {
+      "priority_score": 0.3307921281565475,
+      "projected_surge": 278814,
+      "fiscal_risk": 875000.0,
+      "maintenance_gap": -41.77743679672658,
+      "migration_churn": 582.4436593982215,
+      "total_enrollment": 369139,
+      "total_updates": 14280741
+    },
+    "Manipur": {
+      "priority_score": 0.3390936819077152,
+      "projected_surge": 5140,
+      "fiscal_risk": 27500.0,
+      "maintenance_gap": -19.67117844281634,
+      "migration_churn": 988.9163498098859,
+      "total_enrollment": 13456,
+      "total_updates": 584136
+    },
+    "Meghalaya": {
+      "priority_score": 0.3390162111675562,
+      "projected_surge": 21179,
+      "fiscal_risk": 56852500.0,
+      "maintenance_gap": 0.31467967357658755,
+      "migration_churn": 2.237424547283702,
+      "total_enrollment": 109771,
+      "total_updates": 175004
+    },
+    "Mizoram": {
+      "priority_score": 0.3223056861781697,
+      "projected_surge": 4136,
+      "fiscal_risk": 2500.0,
+      "maintenance_gap": -65.04710424710424,
+      "migration_churn": 73.94747474747474,
+      "total_enrollment": 5926,
+      "total_updates": 162235
+    },
+    "Nagaland": {
+      "priority_score": 0.3348457877119169,
+      "projected_surge": 4512,
+      "fiscal_risk": 742500.0,
+      "maintenance_gap": -2.271475936903446,
+      "migration_churn": 28.945632798573975,
+      "total_enrollment": 15587,
+      "total_updates": 146384
+    },
+    "Nagpur": {
+      "priority_score": 0.3333333333333333,
+      "projected_surge": 0,
+      "fiscal_risk": 0.0,
+      "maintenance_gap": 0.0,
+      "migration_churn": 0.0,
+      "total_enrollment": 0,
+      "total_updates": 1
+    },
+    "Odisha": {
+      "priority_score": 0.33036605149153003,
+      "projected_surge": 95883,
+      "fiscal_risk": 475000.0,
+      "maintenance_gap": -52.951791501620455,
+      "migration_churn": 1268.8240866035183,
+      "total_enrollment": 118838,
+      "total_updates": 3486184
+    },
+    "Orissa": {
+      "priority_score": 0.3329599144528906,
+      "projected_surge": 3548,
+      "fiscal_risk": 205000.0,
+      "maintenance_gap": -20.291181364392678,
+      "migration_churn": 0.0,
+      "total_enrollment": 4149,
+      "total_updates": 90841
+    },
+    "Pondicherry": {
+      "priority_score": 0.3293021240027532,
+      "projected_surge": 1193,
+      "fiscal_risk": 2500.0,
+      "maintenance_gap": -65.0506329113924,
+      "migration_churn": 0.0,
+      "total_enrollment": 1272,
+      "total_updates": 35046
+    },
+    "Puducherry": {
+      "priority_score": 0.32243524359102993,
+      "projected_surge": 1585,
+      "fiscal_risk": 0.0,
+      "maintenance_gap": -187.17241379310346,
+      "migration_churn": 482.15909090909093,
+      "total_enrollment": 1745,
+      "total_updates": 67625
+    },
+    "Punjab": {
+      "priority_score": 0.3274051218679839,
+      "projected_surge": 61224,
+      "fiscal_risk": 412500.0,
+      "maintenance_gap": -55.69287449392713,
+      "migration_churn": 260.09741488020177,
+      "total_enrollment": 76746,
+      "total_updates": 2621566
+    },
+    "Puttenahalli": {
+      "priority_score": 0.3333333333333333,
+      "projected_surge": 0,
+      "fiscal_risk": 0.0,
+      "maintenance_gap": 0.0,
+      "migration_churn": 0.0,
+      "total_enrollment": 0,
+      "total_updates": 1
+    },
+    "Raja Annamalai Puram": {
+      "priority_score": 0.3333333333333333,
+      "projected_surge": 0,
+      "fiscal_risk": 0.0,
+      "maintenance_gap": 0.0,
+      "migration_churn": 0.0,
+      "total_enrollment": 0,
+      "total_updates": 1
+    },
+    "Rajasthan": {
+      "priority_score": 0.34197369918554704,
+      "projected_surge": 229780,
+      "fiscal_risk": 605000.0,
+      "maintenance_gap": -17.269909744260673,
+      "migration_churn": 460.9164716471647,
+      "total_enrollment": 348458,
+      "total_updates": 6812570
+    },
+    "Sikkim": {
+      "priority_score": 0.33298781617432194,
+      "projected_surge": 1054,
+      "fiscal_risk": 387500.0,
+      "maintenance_gap": -10.396370582617001,
+      "migration_churn": 177.21698113207546,
+      "total_enrollment": 2207,
+      "total_updates": 43160
+    },
+    "Tamil Nadu": {
+      "priority_score": 0.3295085078003038,
+      "projected_surge": 182313,
+      "fiscal_risk": 490000.0,
+      "maintenance_gap": -58.828941359765764,
+      "migration_churn": 1518.4867894315453,
+      "total_enrollment": 220789,
+      "total_updates": 6910345
+    },
+    "Tamilnadu": {
+      "priority_score": 0.3333333333333333,
+      "projected_surge": 0,
+      "fiscal_risk": 45000.0,
+      "maintenance_gap": 0.0,
+      "migration_churn": 0.0,
+      "total_enrollment": 0,
+      "total_updates": 1
+    },
+    "Telangana": {
+      "priority_score": 0.3312658712735267,
+      "projected_surge": 105918,
+      "fiscal_risk": 1367500.0,
+      "maintenance_gap": -37.624648031014075,
+      "migration_churn": 1205.6029539530844,
+      "total_enrollment": 131574,
+      "total_updates": 3367562
+    },
+    "The Dadra And Nagar Haveli And Daman And Diu": {
+      "priority_score": 0.3507036896158235,
+      "projected_surge": 548,
+      "fiscal_risk": 352500.0,
+      "maintenance_gap": 1.0,
+      "migration_churn": 0.0,
+      "total_enrollment": 716,
+      "total_updates": 0
+    },
+    "Tripura": {
+      "priority_score": 0.33107679380855287,
+      "projected_surge": 7376,
+      "fiscal_risk": 0.0,
+      "maintenance_gap": -39.376299945265465,
+      "migration_churn": 494.98823529411766,
+      "total_enrollment": 11285,
+      "total_updates": 430168
+    },
+    "Uttar Pradesh": {
+      "priority_score": 0.344341244690763,
+      "projected_surge": 521045,
+      "fiscal_risk": 19355000.0,
+      "maintenance_gap": -11.940041527511976,
+      "migration_churn": 433.0253602949391,
+      "total_enrollment": 1018629,
+      "total_updates": 18120063
+    },
+    "Uttarakhand": {
+      "priority_score": 0.3296976175513197,
+      "projected_surge": 31880,
+      "fiscal_risk": 7500.0,
+      "maintenance_gap": -76.46687351706515,
+      "migration_churn": 1220.386430678466,
+      "total_enrollment": 37698,
+      "total_updates": 1228400
+    },
+    "Uttaranchal": {
+      "priority_score": 0.3333333333333333,
+      "projected_surge": 0,
+      "fiscal_risk": 2500.0,
+      "maintenance_gap": 0.0,
+      "migration_churn": 0.0,
+      "total_enrollment": 0,
+      "total_updates": 7
+    },
+    "West  Bengal": {
+      "priority_score": 0.3333436886168876,
+      "projected_surge": 9,
+      "fiscal_risk": 25000.0,
+      "maintenance_gap": 0.0,
+      "migration_churn": 0.0,
+      "total_enrollment": 15,
+      "total_updates": 135
+    },
+    "West Bangal": {
+      "priority_score": 0.33325881029138554,
+      "projected_surge": 7,
+      "fiscal_risk": 30000.0,
+      "maintenance_gap": -4.0,
+      "migration_churn": 0.0,
+      "total_enrollment": 10,
+      "total_updates": 211
+    },
+    "West Bengal": {
+      "priority_score": 0.33839889117050936,
+      "projected_surge": 275400,
+      "fiscal_risk": 26310000.0,
+      "maintenance_gap": -10.384100308540669,
+      "migration_churn": 426.5296122209166,
+      "total_enrollment": 375308,
+      "total_updates": 6396824
+    },
+    "West Bengli": {
+      "priority_score": 0.3333333333333333,
+      "projected_surge": 0,
+      "fiscal_risk": 25000.0,
+      "maintenance_gap": 0.0,
+      "migration_churn": 0.0,
+      "total_enrollment": 0,
+      "total_updates": 3
+    },
+    "Westbengal": {
+      "priority_score": 0.33333727820325876,
+      "projected_surge": 4,
+      "fiscal_risk": 30000.0,
+      "maintenance_gap": -1.3333333333333333,
+      "migration_churn": 0.0,
+      "total_enrollment": 7,
+      "total_updates": 183
+    }
+  }
+}

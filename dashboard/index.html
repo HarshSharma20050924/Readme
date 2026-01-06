@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aadhaar Analysis Dashboard | National Insights</title>
+    <link rel="stylesheet" href="styles.css?v=2">
+    <link rel="stylesheet" href="lib/leaflet.css" />
+    <script src="lib/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <div class="dashboard">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <svg class="logo-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                    </svg>
+                    <div class="logo-text">
+                        <h1>Aadhaar National Insights</h1>
+                        <span>Societal Trends & Strategic Analysis</span>
+                    </div>
+                </div>
+                <div class="header-actions">
+                    <div class="status-badge">Live Intelligence</div>
+                    <span class="timestamp" id="timestamp"></span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Executive Summary -->
+            <section class="summary-section">
+                <h2 class="section-title">Strategic Overview</h2>
+                <div class="summary-grid">
+                    <div class="metric-card glass primary">
+                        <div class="metric-header">
+                            <span class="metric-label">Total Population Dataset</span>
+                            <div class="metric-icon-box">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="9" cy="7" r="4"></circle>
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <span class="metric-value" id="total-records">--</span>
+                    </div>
+                    <div class="metric-card glass warning">
+                        <div class="metric-header">
+                            <span class="metric-label">Service Deserts identified</span>
+                            <div class="metric-icon-box">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                            </div>
+                        </div>
+                        <span class="metric-value" id="maintenance-deserts">--</span>
+                    </div>
+                    <div class="metric-card glass danger">
+                        <div class="metric-header">
+                            <span class="metric-label">Migration Hotspots</span>
+                            <div class="metric-icon-box">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <span class="metric-value" id="migration-hotspots">--</span>
+                    </div>
+                    <div class="metric-card glass success">
+                        <div class="metric-header">
+                            <span class="metric-label">Projected Update Surge</span>
+                            <div class="metric-icon-box">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                                    <polyline points="17 6 23 6 23 12"></polyline>
+                                </svg>
+                            </div>
+                        </div>
+                        <span class="metric-value" id="projected-surge">--</span>
+                    </div>
+                   <div class="metric-card glass info">
+    <div class="metric-header">
+        <span class="metric-label">Total Fiscal Risk (Cr)</span>
+        <div class="metric-icon-box">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 3h12"></path>
+                <path d="M6 8h12"></path>
+                <path d="m6 13 8.5 8"></path>
+                <path d="M6 13h3"></path>
+                <path d="M9 13c6.667 0 6.667-10 0-10"></path>
+            </svg>
+        </div>
+    </div>
+    <span class="metric-value" id="fiscal-risk">--</span>
+</div>
+                    <div class="metric-card glass">
+                        <div class="metric-header">
+                            <span class="metric-label">Administrative Units</span>
+                            <div class="metric-icon-box">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                                    <line x1="3" y1="9" x2="21" y2="9"></line>
+                                    <line x1="9" y1="21" x2="9" y2="9"></line>
+                                </svg>
+                            </div>
+                        </div>
+                        <span class="metric-value" id="total-states">--</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Geographic Intelligence Map -->
+            <section class="map-section">
+                <h2 class="section-title">Geospatial Risk Intelligence</h2>
+                <div class="map-card glass">
+                    <div id="india-map"></div>
+                    <div class="map-legend" id="map-legend">
+                        <!-- Legend inserted by JS -->
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- Charts Section -->
+            <section class="charts-section">
+                <div class="chart-row">
+                    <div class="chart-card glass">
+                        <h3>Projected Update Surge by State</h3>
+                        <div class="chart-container">
+                            <canvas id="surgeChart"></canvas>
+                        </div>
+                    </div>
+                    <div class="chart-card glass">
+                        <h3>State-wise Fiscal Exposure</h3>
+                        <div class="chart-container">
+                            <canvas id="fiscalChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-row">
+                    <div class="chart-card glass full-width">
+                        <h3>Priority Index Mapping</h3>
+                        <div class="chart-container">
+                            <canvas id="priorityChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Priority Pincodes Table -->
+            <section class="table-section">
+                <div class="table-card glass">
+                    <div class="table-header">
+                        <h3>High Priority Postcodes</h3>
+                        <div class="status-badge">Action Required</div>
+                    </div>
+                    <div class="table-container">
+                        <table class="data-table" id="priority-table">
+                            <thead>
+                                <tr>
+                                    <th>Postcode</th>
+                                    <th>Maintenance Risk</th>
+                                    <th>Migration Impact</th>
+                                    <th>Surge Potential</th>
+                                    <th>Priority Index</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Welfare Risk Districts -->
+            <section class="table-section">
+                <div class="table-card glass">
+                    <div class="table-header">
+                        <h3>Critical Welfare Risk Zones</h3>
+                        <div class="status-badge"
+                            style="color: var(--brand-rose); border-color: rgba(244, 63, 94, 0.2); background: rgba(244, 63, 94, 0.05);">
+                            Vulnerability Alert</div>
+                    </div>
+                    <div class="table-container">
+                        <table class="data-table" id="welfare-table">
+                            <thead>
+                                <tr>
+                                    <th>District</th>
+                                    <th>Welfare Risk Index</th>
+                                    <th>Intelligence Status</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Recommendations -->
+            <section class="table-section">
+                <div class="table-card glass">
+                    <div class="table-header">
+                        <h3>Strategic Infrastructure Deployment</h3>
+                    </div>
+                    <div class="table-container">
+                        <table class="data-table" id="recommendations-table">
+                            <thead>
+                                <tr>
+                                    <th>Postcode</th>
+                                    <th>Priority Index</th>
+                                    <th>Activity Volume</th>
+                                    <th>Infrastructure Recommendation</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Action Plan -->
+            <section class="action-plan-section">
+                <h2 class="section-title">Strategic Action Directives</h2>
+                <div class="action-cards" id="action-cards">
+                    <!-- Dynamically populated -->
+                </div>
+            </section>
+
+            <!-- Insights -->
+            <section class="insights-section">
+                <div class="insights-grid">
+                    <div class="insight-card glass">
+                        <h3>Infrastructure Deficits</h3>
+                        <p class="metric-label" style="margin-bottom: 2rem;">Regions with critical biometric update
+                            delays</p>
+                        <ul class="insight-list" id="deserts-list"></ul>
+                    </div>
+                    <div class="insight-card glass">
+                        <h3>Migration Trajectory</h3>
+                        <p class="metric-label" style="margin-bottom: 2rem;">Key demographic shift indicators</p>
+                        <ul class="insight-list" id="hotspots-list"></ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <p>National Aadhaar Societal Trends Intelligence Dashboard</p>
+                <p style="color: var(--text-muted); font-size: 0.7rem;">Confidential Hackathon Analysis | 2026 UIDAI
+                    Policy Support Framework</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="app.js?v=2"></script>
+</body>
+
+</html>

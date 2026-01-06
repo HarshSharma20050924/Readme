@@ -1,0 +1,757 @@
+/* ============================================
+   AADHAAR ANALYSIS DASHBOARD - ROYAL TECH THEME
+   Premium Midnight & Amber Aesthetic
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+    /* Base Colors - Midnight Sapphire Palette */
+    --bg-primary: #020617;
+    --bg-secondary: #0f172a;
+    --bg-tertiary: #1e293b;
+
+    /* Surface & Glass */
+    --surface: rgba(30, 41, 59, 0.4);
+    --surface-hover: rgba(30, 41, 59, 0.6);
+    --border: rgba(255, 255, 255, 0.05);
+    --border-bright: rgba(255, 255, 255, 0.1);
+
+    /* Text */
+    --text-primary: #f8fafc;
+    --text-secondary: #94a3b8;
+    --text-muted: #64748b;
+
+    /* Brand Accents - Indian Solar Energy Theme */
+    --brand-gold: #fbbf24;
+    --brand-gold-glow: rgba(251, 191, 36, 0.15);
+    --brand-emerald: #10b981;
+    --brand-rose: #f43f5e;
+    --brand-sky: #0ea5e9;
+
+    /* Gradients */
+    --gradient-gold: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+    --gradient-midnight: linear-gradient(180deg, #020617 0%, #0f172a 100%);
+    --gradient-card: linear-gradient(145deg, rgba(30, 41, 59, 0.4) 0%, rgba(15, 23, 42, 0.4) 100%);
+
+    /* Spacing & Radius */
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 24px;
+    --radius-full: 9999px;
+
+    --shadow-premium: 0 10px 40px -10px rgba(0, 0, 0, 0.5);
+    --transition: all 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+/* Base Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', 'Outfit', sans-serif;
+    background: var(--bg-primary);
+    background-image:
+        radial-gradient(circle at 0% 0%, rgba(251, 191, 36, 0.03) 0%, transparent 40%),
+        radial-gradient(circle at 100% 100%, rgba(14, 165, 233, 0.03) 0%, transparent 40%);
+    color: var(--text-primary);
+    line-height: 1.6;
+    min-height: 100vh;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Typography Enhancements */
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: -0.02em;
+}
+
+/* Glassmorphism Logic */
+.glass {
+    background: var(--gradient-card);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    transition: var(--transition);
+}
+
+.glass:hover {
+    border-color: var(--border-bright);
+    box-shadow: var(--shadow-premium);
+    transform: translateY(-2px);
+}
+
+/* ============================================
+   HEADER
+   ============================================ */
+
+.header {
+    background: rgba(2, 6, 23, 0.8);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo-icon-svg {
+    width: 32px;
+    height: 32px;
+    color: var(--brand-gold);
+}
+
+.logo-text h1 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    background: var(--gradient-gold);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logo-text span {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.status-badge {
+    background: rgba(16, 185, 129, 0.1);
+    color: var(--brand-emerald);
+    padding: 0.4rem 1rem;
+    border-radius: var(--radius-full);
+    font-size: 0.7rem;
+    font-weight: 700;
+    border: 1px solid rgba(16, 185, 129, 0.2);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.status-badge::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background: var(--brand-emerald);
+    border-radius: 50%;
+    animation: flash 2s infinite;
+}
+
+@keyframes flash {
+
+    0%,
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.3;
+        transform: scale(1.2);
+    }
+}
+
+/* ============================================
+   LAYOUT & CONTAINERS
+   ============================================ */
+
+.main-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: var(--text-primary);
+    position: relative;
+    padding-left: 1rem;
+}
+
+.section-title::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 15%;
+    height: 70%;
+    width: 4px;
+    background: var(--brand-gold);
+    border-radius: 2px;
+}
+
+/* ============================================
+   METRIC CARDS
+   ============================================ */
+
+.summary-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 4rem;
+}
+
+.metric-card {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 140px;
+}
+
+.metric-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.metric-icon-box {
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--border);
+}
+
+.metric-icon-box svg {
+    width: 20px;
+    height: 20px;
+    stroke-width: 2;
+}
+
+.metric-value {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--text-primary);
+    line-height: 1;
+}
+
+.metric-label {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+}
+
+/* Variations */
+.primary .metric-icon-box svg {
+    color: var(--brand-sky);
+}
+
+.warning .metric-icon-box svg {
+    color: var(--brand-gold);
+}
+
+.danger .metric-icon-box svg {
+    color: var(--brand-rose);
+}
+
+.success .metric-icon-box svg {
+    color: var(--brand-emerald);
+}
+
+/* ============================================
+   VISUALIZATIONS
+   ============================================ */
+
+.charts-section {
+    margin-bottom: 4rem;
+}
+
+.chart-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.chart-card {
+    padding: 2rem;
+}
+
+.chart-card h3 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.full-width {
+    grid-column: 1 / -1;
+}
+
+.chart-container {
+    height: 320px;
+}
+
+/* ============================================
+   DATA TABLES
+   ============================================ */
+
+.table-section {
+    margin-bottom: 4rem;
+}
+
+.table-card {
+    padding: 0;
+    overflow: hidden;
+}
+
+.table-header {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--border);
+}
+
+.table-header h3 {
+    font-size: 1.1rem;
+}
+
+.table-container {
+    padding: 0 1rem;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.data-table th {
+    text-align: left;
+    padding: 1.25rem 1rem;
+    color: var(--text-muted);
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-bottom: 1px solid var(--border);
+}
+
+.data-table td {
+    padding: 1.25rem 1rem;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    border-bottom: 1px solid var(--border);
+}
+
+.data-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.data-table tbody tr {
+    transition: var(--transition);
+}
+
+.data-table tbody tr:hover {
+    background: rgba(255, 255, 255, 0.02);
+}
+
+/* Table Specific Badges */
+.badge {
+    padding: 0.25rem 0.75rem;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.status-critical {
+    background: rgba(244, 63, 94, 0.1);
+    color: var(--brand-rose);
+}
+
+.status-high {
+    background: rgba(251, 191, 36, 0.1);
+    color: var(--brand-gold);
+}
+
+.status-medium {
+    background: rgba(14, 165, 233, 0.1);
+    color: var(--brand-sky);
+}
+
+/* ============================================
+   ACTION PLAN CARDS
+   ============================================ */
+
+.action-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+}
+
+.action-card {
+    padding: 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.action-priority {
+    font-size: 0.65rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: var(--brand-gold);
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.action-card h4 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+}
+
+.action-card p {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+}
+
+.action-target {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    padding: 0.5rem 1rem;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 8px;
+    display: inline-block;
+}
+
+/* ============================================
+   INSIGHTS LISTS
+   ============================================ */
+
+.insights-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.insight-card {
+    padding: 2rem;
+}
+
+.insight-list {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.insight-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--border);
+}
+
+.insight-list li:last-child {
+    border-bottom: none;
+}
+
+.insight-value {
+    font-weight: 700;
+    color: var(--brand-gold);
+}
+
+/* ============================================
+   FOOTER
+   ============================================ */
+
+.footer {
+    padding: 4rem 2rem;
+    text-align: center;
+    background: var(--bg-primary);
+    border-top: 1px solid var(--border);
+}
+
+.footer-content p {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+}
+
+/* ============================================
+   ANIMATIONS & SCROLLBAR
+   ============================================ */
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.glass {
+    animation: slideUp 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+.summary-grid div:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.summary-grid div:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.summary-grid div:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+.summary-grid div:nth-child(4) {
+    animation-delay: 0.4s;
+}
+
+.summary-grid div:nth-child(5) {
+    animation-delay: 0.5s;
+}
+
+.summary-grid div:nth-child(6) {
+    animation-delay: 0.6s;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--bg-tertiary);
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--text-muted);
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+
+    .chart-row,
+    .insights-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 640px) {
+    .main-content {
+        padding: 2rem 1rem;
+    }
+
+    .header-content {
+        padding: 1rem;
+    }
+
+    .metric-value {
+        font-size: 1.5rem;
+    }
+}
+
+/* ============================================
+   MAP VISUALIZATION
+   ============================================ */
+
+.map-section {
+    margin-bottom: 4rem;
+}
+
+.map-card {
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    height: 600px;
+    /* Taller for better map view */
+}
+
+#india-map {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: transparent;
+}
+
+.map-legend {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background: rgba(15, 23, 42, 0.85);
+    backdrop-filter: blur(8px);
+    padding: 1rem;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border);
+    z-index: 1000;
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.legend-color {
+    width: 12px;
+    height: 12px;
+    border-radius: 2px;
+}
+
+/* Leaflet Customization */
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+    background: var(--bg-tertiary);
+    color: var(--text-primary);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-premium);
+    padding: 0;
+}
+
+.leaflet-popup-content {
+    margin: 0 !important;
+    width: 240px !important;
+}
+
+.map-popup {
+    padding: 1.25rem;
+}
+
+.map-popup h3 {
+    color: var(--brand-gold);
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.5rem;
+}
+
+.popup-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.popup-item.full {
+    grid-column: span 2;
+    background: rgba(5, 4, 4, 0.03);
+    padding: 0.5rem;
+    border-radius: var(--radius-sm);
+    border-left: 3px solid var(--brand-sky);
+}
+
+.popup-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.popup-item .label {
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    letter-spacing: 0.05em;
+    font-weight: 600;
+}
+
+.popup-item .value {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.popup-item.full .value {
+    font-size: 1.25rem;
+    color: var(--brand-sky);
+}
+
+.leaflet-container {
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+}
+
+/* Dark mode controls override */
+.leaflet-control-zoom a {
+    background-color: var(--bg-tertiary) !important;
+    color: var(--text-primary) !important;
+    border-color: var(--border) !important;
+}
+
+.leaflet-control-zoom a:hover {
+    background-color: var(--surface) !important;
+}
+
+/* FIX: Dark Theme for Leaflet Popups */
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+    background: var(--bg-tertiary) !important;
+    /* Dark blue background */
+    color: var(--text-primary) !important;
+    /* Light text */
+    border: 1px solid var(--border-bright);
+    box-shadow: var(--shadow-premium);
+}
+
+/* Ensure the popup container doesn't have a white background */
+.map-popup {
+    background: transparent !important;
+}
+
+/* Make sure specific item labels are visible */
+.popup-item .label {
+    color: var(--text-secondary) !important;
+    /* Soft grey */
+}
+
+.popup-item .value {
+    color: var(--text-primary) !important;
+    /* Bright white */
+}
+
+/* Close button styling to make it visible against dark bg */
+.leaflet-container a.leaflet-popup-close-button {
+    color: var(--text-muted) !important;
+    padding: 8px 8px 0 0;
+}
