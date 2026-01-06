@@ -131,10 +131,14 @@ To maintain strict governance standards, this model:
 *   **Finding**: By correlating "Maintenance Deserts" with typical welfare disbursement data, we estimated a potential ₹24.5 Crore/month risk of benefits remaining undistributed due to biometric failure/non-update.
 
 #### Visualization Strategy (The Dashboard)
-*Note: Screenshots to be inserted here manually in the final PDF.*
 
-> **[INSERT IMAGE MANUALLY: National Priority Index Heatmap]**
-> *Figure 2: National Priority Index Heatmap (Illustrative). Representative snapshot from the prototype dashboard showing state-level priority bands (Stable to Critical).*
+
+![Dashboard Screenshot 1](https://raw.githubusercontent.com/HarshSharma20050924/National-Aadhaar-Societal-Trends-Intelligence-Dashboard/main/Dashboard-images/Screenshot%20from%202026-01-06%2015-51-46.png)
+![Dashboard Screenshot 2](https://raw.githubusercontent.com/HarshSharma20050924/National-Aadhaar-Societal-Trends-Intelligence-Dashboard/main/Dashboard-images/Screenshot%20from%202026-01-06%2015-52-14.png)
+![Dashboard Screenshot 3](https://raw.githubusercontent.com/HarshSharma20050924/National-Aadhaar-Societal-Trends-Intelligence-Dashboard/main/Dashboard-images/Screenshot%20from%202026-01-06%2015-52-33.png)
+![Dashboard Screenshot 4](https://raw.githubusercontent.com/HarshSharma20050924/National-Aadhaar-Societal-Trends-Intelligence-Dashboard/main/Dashboard-images/Screenshot%20from%202026-01-06%2015-52-41.png)
+![Dashboard Screenshot 5](https://raw.githubusercontent.com/HarshSharma20050924/National-Aadhaar-Societal-Trends-Intelligence-Dashboard/main/Dashboard-images/Screenshot%20from%202026-01-06%2015-52-51.png)
+![Dashboard Screenshot 6](https://raw.githubusercontent.com/HarshSharma20050924/National-Aadhaar-Societal-Trends-Intelligence-Dashboard/main/Dashboard-images/Screenshot%20from%202026-01-06%2015-53-00.png)
 
 *   **Interactive India Map**: A choropleth map that allows drilling down from National -> State view. Hovering over a state reveals its specific "Risk Profile".
 *   **Action Plan Cards**: The dashboard moves beyond visualization to provide **data-driven recommendations**.
